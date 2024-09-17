@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\eventattendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\eventattendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\groupmembervaluescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\groupmembervaluescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\tagpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\tagpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\source\\repos\\socnet1\\models\\socialnetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:models\\socialnetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventattendeeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\EventattendeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventattendeeController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\EventattendeeController.cs",
+              "RelativeToolTip": "Controllers\\EventattendeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:26:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:23:24.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FriendController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\FriendController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\FriendController.cs",
+              "RelativeToolTip": "Controllers\\FriendController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:22:25.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:20:44.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupMemberValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\GroupMemberValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupMemberValuesController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\GroupMemberValuesController.cs",
+              "RelativeToolTip": "Controllers\\GroupMemberValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:19:52.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LikeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\LikeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LikeController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\LikeController.cs",
+              "RelativeToolTip": "Controllers\\LikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:19:00.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:18:05.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:17:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:16:34.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Controllers\\TagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:14:35.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TagPostController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\TagPostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagPostController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\TagPostController.cs",
+              "RelativeToolTip": "Controllers\\TagPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:13:36.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlockController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\BlockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlockController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\BlockController.cs",
+              "RelativeToolTip": "Controllers\\BlockController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:11:26.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:10:43.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:09:16.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:03:28.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T16:02:37.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SocialNetContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Models\\SocialNetContext.cs",
+              "RelativeDocumentMoniker": "Models\\SocialNetContext.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\source\\repos\\SocNet1\\Models\\SocialNetContext.cs",
+              "RelativeToolTip": "Models\\SocialNetContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:01:46.367Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
