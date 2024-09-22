@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SocNet1.Models;
+using Domain.Models;
 using System.Xml.Linq;
 
-namespace SocNet1.Controllers
+namespace DataAccess.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

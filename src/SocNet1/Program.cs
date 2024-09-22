@@ -1,5 +1,7 @@
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
-using SocNet1.Models;
 
 namespace SocNet1
 {
@@ -16,9 +18,11 @@ namespace SocNet1
                 .AllowAnyHeader();
             }));
 
-            builder.Services.AddDbContext<SocialNetContext>(
-                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
-            // Add services to the container.
+            builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
+                options => options.UseSqlServer("Server=DESKTOP-SRKQPQK;Database=SocialNet;User Id=DESKTOP-SRKQPQK\\Дан;Integrated Security=True;"));
+            
+                builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+                builder.Services.AddScoped<IUserService, UserService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

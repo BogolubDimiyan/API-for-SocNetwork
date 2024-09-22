@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "block",
-        "Type": "SocNet1.Models.BlockedUser",
+        "Type": "Domain.Models.BlockedUser",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "block",
-        "Type": "SocNet1.Models.BlockedUser",
+        "Type": "Domain.Models.BlockedUser",
         "IsRequired": true
       }
     ],
@@ -74,7 +74,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SocNet1.Controllers.CommentController",
+    "ContainingType": "DataAccess.Controllers.CommentController",
     "Method": "GetAll",
     "RelativePath": "api/Comment",
     "HttpMethod": "GET",
@@ -84,7 +84,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SocNet1.Controllers.CommentController",
+    "ContainingType": "DataAccess.Controllers.CommentController",
     "Method": "Add",
     "RelativePath": "api/Comment",
     "HttpMethod": "POST",
@@ -93,14 +93,14 @@
     "Parameters": [
       {
         "Name": "com",
-        "Type": "SocNet1.Models.Comment",
+        "Type": "Domain.Models.Comment",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SocNet1.Controllers.CommentController",
+    "ContainingType": "DataAccess.Controllers.CommentController",
     "Method": "Update",
     "RelativePath": "api/Comment",
     "HttpMethod": "PUT",
@@ -109,14 +109,14 @@
     "Parameters": [
       {
         "Name": "com",
-        "Type": "SocNet1.Models.Comment",
+        "Type": "Domain.Models.Comment",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SocNet1.Controllers.CommentController",
+    "ContainingType": "DataAccess.Controllers.CommentController",
     "Method": "Delete",
     "RelativePath": "api/Comment",
     "HttpMethod": "DELETE",
@@ -132,7 +132,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SocNet1.Controllers.CommentController",
+    "ContainingType": "DataAccess.Controllers.CommentController",
     "Method": "GetById",
     "RelativePath": "api/Comment/{id}",
     "HttpMethod": "GET",
@@ -167,7 +167,7 @@
     "Parameters": [
       {
         "Name": "events",
-        "Type": "SocNet1.Models.Event",
+        "Type": "Domain.Models.Event",
         "IsRequired": true
       }
     ],
@@ -183,7 +183,7 @@
     "Parameters": [
       {
         "Name": "events",
-        "Type": "SocNet1.Models.Event",
+        "Type": "Domain.Models.Event",
         "IsRequired": true
       }
     ],
@@ -241,7 +241,7 @@
     "Parameters": [
       {
         "Name": "eas",
-        "Type": "SocNet1.Models.EventAttendee",
+        "Type": "Domain.Models.EventAttendee",
         "IsRequired": true
       }
     ],
@@ -257,7 +257,7 @@
     "Parameters": [
       {
         "Name": "eas",
-        "Type": "SocNet1.Models.EventAttendee",
+        "Type": "Domain.Models.EventAttendee",
         "IsRequired": true
       }
     ],
@@ -315,7 +315,7 @@
     "Parameters": [
       {
         "Name": "fr",
-        "Type": "SocNet1.Models.Friend",
+        "Type": "Domain.Models.Friend",
         "IsRequired": true
       }
     ],
@@ -331,7 +331,7 @@
     "Parameters": [
       {
         "Name": "fr",
-        "Type": "SocNet1.Models.Friend",
+        "Type": "Domain.Models.Friend",
         "IsRequired": true
       }
     ],
@@ -389,7 +389,7 @@
     "Parameters": [
       {
         "Name": "group",
-        "Type": "SocNet1.Models.Group",
+        "Type": "Domain.Models.Group",
         "IsRequired": true
       }
     ],
@@ -405,7 +405,7 @@
     "Parameters": [
       {
         "Name": "group",
-        "Type": "SocNet1.Models.Group",
+        "Type": "Domain.Models.Group",
         "IsRequired": true
       }
     ],
@@ -463,7 +463,7 @@
     "Parameters": [
       {
         "Name": "gm",
-        "Type": "SocNet1.Models.GroupMember",
+        "Type": "Domain.Models.GroupMember",
         "IsRequired": true
       }
     ],
@@ -479,7 +479,7 @@
     "Parameters": [
       {
         "Name": "gm",
-        "Type": "SocNet1.Models.GroupMember",
+        "Type": "Domain.Models.GroupMember",
         "IsRequired": true
       }
     ],
@@ -537,7 +537,7 @@
     "Parameters": [
       {
         "Name": "like",
-        "Type": "SocNet1.Models.Like",
+        "Type": "Domain.Models.Like",
         "IsRequired": true
       }
     ],
@@ -553,7 +553,7 @@
     "Parameters": [
       {
         "Name": "like",
-        "Type": "SocNet1.Models.Like",
+        "Type": "Domain.Models.Like",
         "IsRequired": true
       }
     ],
@@ -611,7 +611,7 @@
     "Parameters": [
       {
         "Name": "mes",
-        "Type": "SocNet1.Models.Message",
+        "Type": "Domain.Models.Message",
         "IsRequired": true
       }
     ],
@@ -627,7 +627,7 @@
     "Parameters": [
       {
         "Name": "mes",
-        "Type": "SocNet1.Models.Message",
+        "Type": "Domain.Models.Message",
         "IsRequired": true
       }
     ],
@@ -685,7 +685,7 @@
     "Parameters": [
       {
         "Name": "not",
-        "Type": "SocNet1.Models.Notification",
+        "Type": "Domain.Models.Notification",
         "IsRequired": true
       }
     ],
@@ -701,7 +701,7 @@
     "Parameters": [
       {
         "Name": "not",
-        "Type": "SocNet1.Models.Notification",
+        "Type": "Domain.Models.Notification",
         "IsRequired": true
       }
     ],
@@ -759,7 +759,7 @@
     "Parameters": [
       {
         "Name": "post",
-        "Type": "SocNet1.Models.Post",
+        "Type": "Domain.Models.Post",
         "IsRequired": true
       }
     ],
@@ -775,7 +775,7 @@
     "Parameters": [
       {
         "Name": "post",
-        "Type": "SocNet1.Models.Post",
+        "Type": "Domain.Models.Post",
         "IsRequired": true
       }
     ],
@@ -833,7 +833,7 @@
     "Parameters": [
       {
         "Name": "tag",
-        "Type": "SocNet1.Models.Tag",
+        "Type": "Domain.Models.Tag",
         "IsRequired": true
       }
     ],
@@ -849,7 +849,7 @@
     "Parameters": [
       {
         "Name": "tag",
-        "Type": "SocNet1.Models.Tag",
+        "Type": "Domain.Models.Tag",
         "IsRequired": true
       }
     ],
@@ -907,7 +907,7 @@
     "Parameters": [
       {
         "Name": "ptag",
-        "Type": "SocNet1.Models.PostTag",
+        "Type": "Domain.Models.PostTag",
         "IsRequired": true
       }
     ],
@@ -923,7 +923,7 @@
     "Parameters": [
       {
         "Name": "ptag",
-        "Type": "SocNet1.Models.PostTag",
+        "Type": "Domain.Models.PostTag",
         "IsRequired": true
       }
     ],
@@ -981,7 +981,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "SocNet1.Models.User",
+        "Type": "Domain.Models.User",
         "IsRequired": true
       }
     ],
@@ -997,7 +997,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "SocNet1.Models.User",
+        "Type": "Domain.Models.User",
         "IsRequired": true
       }
     ],
@@ -1023,6 +1023,80 @@
     "ContainingType": "SocNet1.Controllers.UserController",
     "Method": "GetById",
     "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocNet1.Controllers.User1Controller",
+    "Method": "GetAll",
+    "RelativePath": "api/User1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocNet1.Controllers.User1Controller",
+    "Method": "Add",
+    "RelativePath": "api/User1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocNet1.Controllers.User1Controller",
+    "Method": "Update",
+    "RelativePath": "api/User1",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocNet1.Controllers.User1Controller",
+    "Method": "Delete",
+    "RelativePath": "api/User1",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocNet1.Controllers.User1Controller",
+    "Method": "GetById",
+    "RelativePath": "api/User1/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

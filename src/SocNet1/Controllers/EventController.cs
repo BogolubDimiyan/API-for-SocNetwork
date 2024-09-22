@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SocNet1.Models;
+using Domain.Models;
 
 namespace SocNet1.Controllers
 {
