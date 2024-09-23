@@ -23,6 +23,20 @@ namespace SocNet1
             
                 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
                 builder.Services.AddScoped<IUserService, UserService>();
+                builder.Services.AddScoped<ITagService, TagService>();
+                builder.Services.AddScoped<IPostTagService, PostTagService>();
+                builder.Services.AddScoped<IPrivacySettingService, PrivascySettingService>();
+                builder.Services.AddScoped<IPostService, PostService>();
+                builder.Services.AddScoped<INotificationService, NotificationService>();
+                builder.Services.AddScoped<IMessageService, MessageService>();
+                builder.Services.AddScoped<ILikeService, LikeService>();
+                builder.Services.AddScoped<IGroupService, GroupService>();
+                builder.Services.AddScoped<IGroupMemberService, GroupMemberService>();
+                builder.Services.AddScoped<IFriendService, FriendService>();
+                builder.Services.AddScoped<IEventService, EventService>();
+                builder.Services.AddScoped<IEventAttendeeService, EventAttendeeService>();
+                builder.Services.AddScoped<ICommentService, CommentService>();
+                builder.Services.AddScoped<IBlockedUserService, BlockedUserService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
