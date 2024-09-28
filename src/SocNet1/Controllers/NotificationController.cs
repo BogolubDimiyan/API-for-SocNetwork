@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -9,53 +13,60 @@ namespace SocNet1.Controllers
     public class NotificationController : ControllerBase
     {
 
-        public SocialNetContext Context { get; }
-
-        public NotificationController(SocialNetContext context)
+        private INotificationService _notiService;
+        public NotificationController(INotificationService notiService)
         {
-            Context = context;
+            _notiService = notiService;
         }
 
+        /// <summary>
+        /// Создание нового оповещения
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "user_id": "1"
+        ///     "message": "Привет! Как дела?"
+        ///     "type": "Новое сообщение"
+        ///     "is_read": "0"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            List<Notification> not = Context.Notifications.ToList();
-            return Ok(not);
+            return Ok(await _notiService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            Notification? not = Context.Notifications.Where(x => x.Id == id).FirstOrDefault();
-            if (not == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(not);
+            var result = await _notiService.GetById(id);
+            var response = result.Adapt<GetNotificationsResponse>();
+            return Ok(response);
         }
 
         [HttpPost]
-        public IActionResult Add(Notification not)
+        public async Task<IActionResult> Add(CreateNotificationsRequest request)
         {
-            Context.Notifications.Add(not);
-            Context.SaveChanges();
+            var notiDto = request.Adapt<Notification>();
+            await _notiService.Create(notiDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Notification not)
+        public async Task<IActionResult> Update(Notification notiDto)
         {
-            Context.Notifications.Update(not);
-            Context.SaveChanges();
-            return Ok(not);
+            await _notiService.Update(notiDto);
+            return Ok();
         }
-
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Notification? not = Context.Notifications.Where(x => x.Id == id).FirstOrDefault();
-            Context.Notifications.Remove(not);
-            Context.SaveChanges();
+            await _notiService.Delete(id);
             return Ok();
         }
     }

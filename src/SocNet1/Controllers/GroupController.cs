@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNetq.Controllers
 {
@@ -8,53 +11,47 @@ namespace SocNetq.Controllers
     [ApiController]
     public class GroupController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public GroupController(SocialNetContext context)
+        private IGroupService _GService;
+        public GroupController(IGroupService GService)
         {
-            Context = context;
+            _GService = GService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<Group> group = Context.Groups.ToList();
-            return Ok(group);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            Group? group = Context.Groups.Where(x => x.Id == id).FirstOrDefault();
-            if (group == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(group);
-        }
+        /// <summary>
+        /// Создание новой группы
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "name": "Coockies"
+        ///     "description": "Группа, созданная программистами для программистов"
+        ///     "created_by": "1"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(Group group)
+        public async Task<IActionResult> Add(CreateGroupRequest request)
         {
-            Context.Groups.Add(group);
-            Context.SaveChanges();
+            var GmDto = request.Adapt<Group>();
+            await _GService.Create(GmDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Group group)
+        public async Task<IActionResult> Update(Group G)
         {
-            Context.Groups.Update(group);
-            Context.SaveChanges();
-            return Ok(group);
+            await _GService.Update(G);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Group? group = Context.Groups.Where(x => x.Id == id).FirstOrDefault();
-            Context.Groups.Remove(group);
-            Context.SaveChanges();
+            await _GService.Delete(id);
             return Ok();
         }
     }

@@ -4,9 +4,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mapster" Version="6.5.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.33" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.33">
       <PrivateAssets>all</PrivateAssets>

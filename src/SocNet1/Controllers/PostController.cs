@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -9,53 +13,61 @@ namespace SocNet1.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public PostController(SocialNetContext context)
+        private IPostService _postService;
+        public PostController(IPostService posService)
         {
-            Context = context;
+            _postService = posService;
         }
 
+        /// <summary>
+        /// Создание нового поста
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "user_id": "1"
+        ///     "[content]": "В данном посте мы разберемся кто такой архитектор ПО и из чего состоит его работа..."
+        ///     "image_url": "ссылка на фото внутри файловой системы"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "Updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            List<Post> post = Context.Posts.ToList();
-            return Ok(post);
+            return Ok(await _postService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            Post? post = Context.Posts.Where(x => x.Id == id).FirstOrDefault();
-            if (post == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(post);
+            var result = await _postService.GetById(id);
+            var response = result.Adapt<GetPostsResponse>();
+            return Ok(response);
         }
 
         [HttpPost]
-        public IActionResult Add(Post post)
+        public async Task<IActionResult> Add(CreatePostTagsRequest request)
         {
-            Context.Posts.Add(post);
-            Context.SaveChanges();
+            var tgDto = request.Adapt<Post>();
+            await _postService.Create(tgDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Post post)
+        public async Task<IActionResult> Update(Post pos)
         {
-            Context.Posts.Update(post);
-            Context.SaveChanges();
-            return Ok(post);
+            await _postService.Update(pos);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Post? post = Context.Posts.Where(x => x.Id == id).FirstOrDefault();
-            Context.Posts.Remove(post);
-            Context.SaveChanges();
+            await _postService.Delete(id);
             return Ok();
         }
     }

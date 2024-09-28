@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -9,53 +13,50 @@ namespace SocNet1.Controllers
     [ApiController]
     public class EventController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public EventController(SocialNetContext context)
+        private IEventService _eventService;
+        public EventController(IEventService eventService)
         {
-            Context = context;
+            _eventService = eventService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<Event> events = Context.Events.ToList();
-            return Ok(events);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            Event? events = Context.Events.Where(x => x.Id == id).FirstOrDefault();
-            if (events == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(events);
-        }
+        /// <summary>
+        /// Создание нового ивента
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     name": "Вечеринка в честь дня рождения",
+        ///     "description": "Приглашаем всех на вечеринку в честь дня рождения!",
+        ///     "location": "Москва, ул. Ленина, д. 10",
+        ///     "start_time": "2023-10-15T18:00:00",
+        ///     "end_time": "2023-10-15T23:00:00",
+        ///     "created_by": "5",
+        ///     "created_at": "2023-10-05T14:30:45.123456",
+        ///     "updated_at": "2023-10-05T14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(Event events)
+        public async Task<IActionResult> Add(CreateEventsRequest request)
         {
-            Context.Events.Add(events);
-            Context.SaveChanges();
+            var evDto = request.Adapt<Event>();
+            await _eventService.Create(evDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Event events)
+        public async Task<IActionResult> Update(Event ev)
         {
-            Context.Events.Update(events);
-            Context.SaveChanges();
-            return Ok(events);
+            await _eventService.Update(ev);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Event? events = Context.Events.Where(x => x.Id == id).FirstOrDefault();
-            Context.Events.Remove(events);
-            Context.SaveChanges();
+            await _eventService.Delete(id);
             return Ok();
         }
     }

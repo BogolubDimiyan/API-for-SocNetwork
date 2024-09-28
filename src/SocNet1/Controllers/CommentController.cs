@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
 using System.Xml.Linq;
+using SocNet1.Contracts;
+using Domain.Interfaces;
+using Mapster;
 
 namespace DataAccess.Controllers
 {
@@ -9,53 +12,48 @@ namespace DataAccess.Controllers
     [ApiController]
     public class CommentController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public CommentController(SocialNetContext context)
+        private ICommentService _comService;
+        public CommentController(ICommentService comService)
         {
-            Context = context;
+            _comService = comService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<Comment> com = Context.Comments.ToList();
-            return Ok(com);
-        }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            Comment? com = Context.Comments.Where(x => x.Id == id).FirstOrDefault();
-            if (com == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(com);
-        }
+        /// <summary>
+        /// Создание нового комментария
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "post_id": "34"
+        ///     "user_id": "1"
+        ///     "content": "Даа, согласен, звучит потрясающе!!!"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(Comment com)
+        public async Task<IActionResult> Add(CreateCommentsRequest request)
         {
-            Context.Comments.Add(com);
-            Context.SaveChanges();
+            var evDto = request.Adapt<Comment>();
+            await _comService.Create(evDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Comment com)
+        public async Task<IActionResult> Update(Comment com)
         {
-            Context.Comments.Update(com);
-            Context.SaveChanges();
-            return Ok(com);
+            await _comService.Update(com);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Comment? com = Context.Comments.Where(x => x.Id == id).FirstOrDefault();
-            Context.Comments.Remove(com);
-            Context.SaveChanges();
+            await _comService.Delete(id);
             return Ok();
         }
     }

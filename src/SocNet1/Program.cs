@@ -2,6 +2,7 @@ using Domain.Interfaces;
 using BusinessLogic.Services;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace SocNet1
 {
@@ -41,7 +42,29 @@ namespace SocNet1
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Социальная сеть API",
+                    Description = "API созданный для социальной сети",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact
+                    {
+                        Name = "Пример контакта",
+                        Url = new Uri("https://example.com/contact")
+                    },
+                    License = new Microsoft.OpenApi.Models.OpenApiLicense
+                    {
+                        Name = "Пример лицензии",
+                        Url = new Uri("https://example.com/license")
+                    }
+
+                });
+
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+            });
 
             var app = builder.Build();
 

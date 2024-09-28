@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using SocNet1.Contracts;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -8,53 +12,59 @@ namespace SocNet1.Controllers
     [ApiController]
     public class TagPostController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public TagPostController(SocialNetContext context)
+        private IPostTagService _posttgService;
+        public TagPostController(IPostTagService posttgService)
         {
-            Context = context;
+            _posttgService = posttgService;
         }
 
+
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            List<PostTag> ptag = Context.PostTags.ToList();
-            return Ok(ptag);
+            return Ok(await _posttgService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            PostTag? ptag = Context.PostTags.Where(x => x.Id == id).FirstOrDefault();
-            if (ptag == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(ptag);
+            var result = await _posttgService.GetById(id);
+            var response = result.Adapt<GetPostTagsResponse>();
+            return Ok(response);
         }
 
+        /// <summary>
+        /// Создание нового тега у поста
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "post_id": "1"
+        ///     "tag_id": "1"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
         [HttpPost]
-        public IActionResult Add(PostTag ptag)
+        public async Task<IActionResult> Add(CreatePostTagsRequest request)
         {
-            Context.PostTags.Add(ptag);
-            Context.SaveChanges();
+            var postgDto = request.Adapt<PostTag>();
+            await _posttgService.Create(postgDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(PostTag ptag)
+        public async Task<IActionResult> Update(PostTag posttg)
         {
-            Context.PostTags.Update(ptag);
-            Context.SaveChanges();
-            return Ok(ptag);
+            await _posttgService.Update(posttg);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            PostTag? ptag = Context.PostTags.Where(x => x.Id == id).FirstOrDefault();
-            Context.PostTags.Remove(ptag);
-            Context.SaveChanges();
+            await _posttgService.Delete(id);
             return Ok();
         }
     }

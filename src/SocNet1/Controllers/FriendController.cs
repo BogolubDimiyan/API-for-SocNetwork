@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using SocNet1.Contracts;
+using Domain.Interfaces;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -8,53 +11,47 @@ namespace SocNet1.Controllers
     [ApiController]
     public class FriendController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public FriendController(SocialNetContext context)
+        private IFriendService _friendService;
+        public FriendController(IFriendService friendService)
         {
-            Context = context;
+            _friendService = friendService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<Friend> fr = Context.Friends.ToList();
-            return Ok(fr);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            Friend? fr = Context.Friends.Where(x => x.Id == id).FirstOrDefault();
-            if (fr == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(fr);
-        }
+        /// <summary>
+        /// Создание нового друга
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "requester_id": "3"
+        ///     "receiver_id": "1"
+        ///     "status": "Друзья"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(Friend fr)
+        public async Task<IActionResult> Add(CreateFriendsRequest request)
         {
-            Context.Friends.Add(fr);
-            Context.SaveChanges();
+            var GmDto = request.Adapt<Friend>();
+            await _friendService.Create(GmDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Friend fr)
+        public async Task<IActionResult> Update(Friend friendss)
         {
-            Context.Friends.Update(fr);
-            Context.SaveChanges();
-            return Ok(fr);
+            await _friendService.Update(friendss);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Friend? fr = Context.Friends.Where(x => x.Id == id).FirstOrDefault();
-            Context.Friends.Remove(fr);
-            Context.SaveChanges();
+            await _friendService.Delete(id);
             return Ok();
         }
     }

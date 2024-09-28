@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using SocNet1.Contracts;
+using Microsoft.AspNetCore.Identity;
+using System.Reflection;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -14,6 +18,28 @@ namespace SocNet1.Controllers
         {
             _userService = userService;
         }
+        /// <summary>
+        /// Создание нового пользователя
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "username": "AnnPiano"
+        ///     "email": "AnnaS8694@gmail.com"
+        ///     "password_hash": "Anka839(Df)"
+        ///     "first_name": "Анна"
+        ///     "last_name": "Салтова"
+        ///     "birthdate": "28.04.2000"
+        ///     "gender": "Женский"
+        ///     "profile_picture": "ссылка на фото в фаловой системе"
+        ///     "bio": "Привет, меня зовут Анна, я профессиональная пианистка"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "Updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -24,13 +50,16 @@ namespace SocNet1.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _userService.GetById(id));
+            var result = await _userService.GetById(id);
+            var response = result.Adapt<GetUserResponse>();
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(User user)
+        public async Task<IActionResult> Add(CreateUserRequest request)
         {
-            await _userService.Create(user);
+            var userDto = request.Adapt<User>();
+            await _userService.Create(userDto);
             return Ok();
         }
 

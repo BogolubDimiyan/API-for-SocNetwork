@@ -15,6 +15,22 @@ namespace SocNet1.Controllers
             Context = context;
         }
 
+        /// <summary>
+        /// Создание нового сообщения
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "sender_id": "1"
+        ///     "receiver_id": "2"
+        ///     "content": "Привеет! Куда пропал?"
+        ///     "read_status": "1"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
         [HttpGet]
         public IActionResult GetAll()
         {

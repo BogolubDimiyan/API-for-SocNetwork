@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet.Controllers
 {
@@ -8,53 +12,46 @@ namespace SocNet.Controllers
     [ApiController]
     public class EventattendeeController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public EventattendeeController(SocialNetContext context)
+        private IEventAttendeeService _eventaService;
+        public EventattendeeController(IEventAttendeeService eventaService)
         {
-            Context = context;
+            _eventaService = eventaService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<EventAttendee> eas = Context.EventAttendees.ToList();
-            return Ok(eas);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            EventAttendee? eas = Context.EventAttendees.Where(x => x.Id == id).FirstOrDefault();
-            if (eas == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(eas);
-        }
+        /// <summary>
+        /// Создание нового посетителя ивента
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "event_id": "1"
+        ///     "user_id": "2"
+        ///     "status": "приглашен"
+        ///     "joined_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(EventAttendee eas)
+        public async Task<IActionResult> Add(CreateEventAttendeeRequest request)
         {
-            Context.EventAttendees.Add(eas);
-            Context.SaveChanges();
+            var evDto = request.Adapt<EventAttendee>();
+            await _eventaService.Create(evDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(EventAttendee eas)
+        public async Task<IActionResult> Update(EventAttendee ev)
         {
-            Context.EventAttendees.Update(eas);
-            Context.SaveChanges();
-            return Ok(eas);
+            await _eventaService.Update(ev);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            EventAttendee? eas = Context.EventAttendees.Where(x => x.Id == id).FirstOrDefault();
-            Context.EventAttendees.Remove(eas);
-            Context.SaveChanges();
+            await _eventaService.Delete(id);
             return Ok();
         }
     }

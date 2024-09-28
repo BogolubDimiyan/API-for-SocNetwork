@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -8,54 +12,48 @@ namespace SocNet1.Controllers
     [ApiController]
     public class BlockController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public BlockController(SocialNetContext context)
+        private IBlockedUserService _blService;
+        public BlockController(IBlockedUserService blService)
         {
-            Context = context;
+            _blService = blService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            List<BlockedUser> block = Context.BlockedUsers.ToList();
-            return Ok(block);
-        }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            BlockedUser? block = Context.BlockedUsers.Where(x => x.Id == id).FirstOrDefault();
-            if (block == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(block);
-        }
+        /// <summary>
+        /// Создание нового заблокированного пользователя
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "blocker_id": "1"
+        ///     "blocked_id": "15"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     "updated_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Add(BlockedUser block)
+        public async Task<IActionResult> Add(CreateBlocksRequest request)
         {
-            Context.BlockedUsers.Add(block);
-            Context.SaveChanges();
+            var blDto = request.Adapt<BlockedUser>();
+            await _blService.Create(blDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(BlockedUser block)
+        public async Task<IActionResult> Update(BlockedUser bl)
         {
-            Context.BlockedUsers.Update(block);
-            Context.SaveChanges();
-            return Ok(block);
+            await _blService.Update(bl);
+            return Ok();
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            BlockedUser? block = Context.BlockedUsers.Where(x => x.Id == id).FirstOrDefault();
-            Context.BlockedUsers.Remove(block);
-            Context.SaveChanges();
-            return Ok(block);
+            await _blService.Delete(id);
+            return Ok();
         }
     }
 }

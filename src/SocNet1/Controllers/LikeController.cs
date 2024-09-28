@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -8,53 +11,60 @@ namespace SocNet1.Controllers
     [ApiController]
     public class LikeController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public LikeController(SocialNetContext context)
+        private ILikeService _likeService;
+        public LikeController(ILikeService likeService)
         {
-            Context = context;
+            _likeService = likeService;
         }
 
+        /// <summary>
+        /// Создание нового понравившегося поста
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "post_id": "23"
+        ///     "user_id": "1"
+        ///     "created_at": "2023-10-05 14:30:45.123456"
+        ///     }
+        ///     
+        /// </remarks>
+        /// <returns></returns>
+
+
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            List<Like> like = Context.Likes.ToList();
-            return Ok(like);
+            return Ok(await _likeService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            Like? like = Context.Likes.Where(x => x.Id == id).FirstOrDefault();
-            if (like == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(like);
+            var result = await _likeService.GetById(id);
+            var response = result.Adapt<GetLikesResponse>();
+            return Ok(response);
         }
 
         [HttpPost]
-        public IActionResult Add(Like like)
+        public async Task<IActionResult> Add(CreateLikesRequest request)
         {
-            Context.Likes.Add(like);
-            Context.SaveChanges();
+            var likeDto = request.Adapt<Like>();
+            await _likeService.Create(likeDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Like like)
+        public async Task<IActionResult> Update(Like likeDto)
         {
-            Context.Likes.Update(like);
-            Context.SaveChanges();
-            return Ok(like);
+            await _likeService.Update(likeDto);
+            return Ok();
         }
-
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Like? like = Context.Likes.Where(x => x.Id == id).FirstOrDefault();
-            Context.Likes.Remove(like);
-            Context.SaveChanges();
+            await _likeService.Delete(id);
             return Ok();
         }
     }

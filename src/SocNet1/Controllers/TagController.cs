@@ -1,59 +1,66 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 namespace SocNet1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class TagController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public TagController(SocialNetContext context)
+        private ITagService _tagService;
+        public TagController(ITagService tagService)
         {
-            Context = context;
+            _tagService = tagService;
         }
 
+        /// <summary>
+        /// Создание нового тега поста
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///     POST /Todo
+        ///     {
+        ///     "name": "#DogsAndCats"
+        ///     }
+        /// </remarks>
+        /// <returns></returns>
+
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            List<Tag> tag = Context.Tags.ToList();
-            return Ok(tag);
+            return Ok(await _tagService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            Tag? tag = Context.Tags.Where(x => x.Id == id).FirstOrDefault();
-            if (tag == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(tag);
+            var result = await _tagService.GetById(id);
+            var response = result.Adapt<GetTagResponse>();
+            return Ok(response);
         }
 
         [HttpPost]
-        public IActionResult Add(Tag tag)
+        public async Task<IActionResult> Add(CreatePostTagsRequest request)
         {
-            Context.Tags.Add(tag);
-            Context.SaveChanges();
+            var tgDto = request.Adapt<Tag>();
+            await _tagService.Create(tgDto);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult Update(Tag tag)
+        public async Task<IActionResult> Update(Tag tg)
         {
-            Context.Tags.Update(tag);
-            Context.SaveChanges();
-            return Ok(tag);
+            await _tagService.Update(tg);
+            return Ok();
         }
-
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Tag? tag = Context.Tags.Where(x => x.Id == id).FirstOrDefault();
-            Context.Tags.Remove(tag);
-            Context.SaveChanges();
+            await _tagService.Delete(id);
             return Ok();
         }
     }

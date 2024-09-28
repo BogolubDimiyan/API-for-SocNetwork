@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SocNet1</name>
+    </assembly>
+    <members>
+        <member name="M:SocNet1.Controllers.BlockController.Add(SocNet1.Contracts.CreateBlocksRequest)">
+            <summary>
+            Создание нового заблокированного пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "blocker_id": "1"
+                "blocked_id": "15"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.EventController.Add(SocNet1.Contracts.CreateEventsRequest)">
+            <summary>
+            Создание нового ивента
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                name": "Вечеринка в честь дня рождения",
+                "description": "Приглашаем всех на вечеринку в честь дня рождения!",
+                "location": "Москва, ул. Ленина, д. 10",
+                "start_time": "2023-10-15T18:00:00",
+                "end_time": "2023-10-15T23:00:00",
+                "created_by": "5",
+                "created_at": "2023-10-05T14:30:45.123456",
+                "updated_at": "2023-10-05T14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.FriendController.Add(SocNet1.Contracts.CreateFriendsRequest)">
+            <summary>
+            Создание нового друга
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "requester_id": "3"
+                "receiver_id": "1"
+                "status": "Друзья"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.GroupMemberController.Add(SocNet1.Contracts.CreateGroupMembersRequest)">
+            <summary>
+            Создание нового участника группы
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "group_id": "90"
+                "user_id": "2"
+                "role": "администратор"
+                "joined_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.LikeController.GetAll">
+            <summary>
+            Создание нового понравившегося поста
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "post_id": "23"
+                "user_id": "1"
+                "created_at": "2023-10-05 14:30:45.123456"
+                }
+                
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.MassegeController.GetAll">
+            <summary>
+            Создание нового сообщения
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "sender_id": "1"
+                "receiver_id": "2"
+                "content": "Привеет! Куда пропал?"
+                "read_status": "1"
+                "created_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.NotificationController.GetAll">
+            <summary>
+            Создание нового оповещения
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "user_id": "1"
+                "message": "Привет! Как дела?"
+                "type": "Новое сообщение"
+                "is_read": "0"
+                "created_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.PostController.GetAll">
+            <summary>
+            Создание нового поста
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "user_id": "1"
+                "[content]": "В данном посте мы разберемся кто такой архитектор ПО и из чего состоит его работа..."
+                "image_url": "ссылка на фото внутри файловой системы"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "Updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagController.GetAll">
+            <summary>
+            Создание нового тега поста
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "name": "#DogsAndCats"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagPostController.Add(SocNet1.Contracts.CreatePostTagsRequest)">
+            <summary>
+            Создание нового тега у поста
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "post_id": "1"
+                "tag_id": "1"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.User1Controller.GetAll">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "username": "AnnPiano"
+                "email": "AnnaS8694@gmail.com"
+                "password_hash": "Anka839(Df)"
+                "first_name": "Анна"
+                "last_name": "Салтова"
+                "birthdate": "28.04.2000"
+                "gender": "Женский"
+                "profile_picture": "ссылка на фото в фаловой системе"
+                "bio": "Привет, меня зовут Анна, я профессиональная пианистка"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "Updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Controllers.CommentController.Add(SocNet1.Contracts.CreateCommentsRequest)">
+            <summary>
+            Создание нового комментария
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "post_id": "34"
+                "user_id": "1"
+                "content": "Даа, согласен, звучит потрясающе!!!"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet.Controllers.EventattendeeController.Add(SocNet1.Contracts.CreateEventAttendeeRequest)">
+            <summary>
+            Создание нового посетителя ивента
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "event_id": "1"
+                "user_id": "2"
+                "status": "приглашен"
+                "joined_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNetq.Controllers.GroupController.Add(SocNet1.Contracts.CreateGroupRequest)">
+            <summary>
+            Создание новой группы
+            </summary>
+            <remarks>
+            Пример запроса:
+                POST /Todo
+                {
+                "name": "Coockies"
+                "description": "Группа, созданная программистами для программистов"
+                "created_by": "1"
+                "created_at": "2023-10-05 14:30:45.123456"
+                "updated_at": "2023-10-05 14:30:45.123456"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
