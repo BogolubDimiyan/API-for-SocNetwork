@@ -19,6 +19,30 @@ namespace SocNet1.Controllers
             _postService = posService;
         }
 
+
+        /// <summary>
+        /// получение всех данных о постах
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            return Ok(await _postService.GetAll());
+        }
+
+        /// <summary>
+        /// получени id поста
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _postService.GetById(id);
+            var response = result.Adapt<GetPostsResponse>();
+            return Ok(response);
+        }
+
         /// <summary>
         /// Создание нового поста
         /// </summary>
@@ -34,21 +58,6 @@ namespace SocNet1.Controllers
         ///     }
         /// </remarks>
         /// <returns></returns>
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok(await _postService.GetAll());
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var result = await _postService.GetById(id);
-            var response = result.Adapt<GetPostsResponse>();
-            return Ok(response);
-        }
-
         [HttpPost]
         public async Task<IActionResult> Add(CreatePostTagsRequest request)
         {
@@ -57,6 +66,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных постов
+        /// </summary>
+        /// <param name="pos"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Post pos)
         {
@@ -64,6 +78,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление данных постов
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

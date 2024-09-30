@@ -42,6 +42,12 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Обноалвение данных о заблокированных пользователях
+        /// </summary>
+        /// <param name="bl"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(BlockedUser bl)
         {
@@ -49,6 +55,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление заблокированных пользователей
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

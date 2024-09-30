@@ -41,6 +41,11 @@ namespace SocNet1.Controllers
             return Ok(await _notiService.GetAll());
         }
 
+        /// <summary>
+        /// получение id оповещения
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -49,6 +54,11 @@ namespace SocNet1.Controllers
             return Ok(response);
         }
 
+        /// <summary>
+        /// Добавление данных об оповещениях
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateNotificationsRequest request)
         {
@@ -57,12 +67,23 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных об оповещених
+        /// </summary>
+        /// <param name="notiDto"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Notification notiDto)
         {
             await _notiService.Update(notiDto);
             return Ok();
         }
+
+        /// <summary>
+        /// Удаление данных об оповещении
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

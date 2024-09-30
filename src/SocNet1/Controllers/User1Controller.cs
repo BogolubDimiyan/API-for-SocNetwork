@@ -18,6 +18,31 @@ namespace SocNet1.Controllers
         {
             _userService = userService;
         }
+       
+        /// <summary>
+        /// Полученние всех данных
+        /// </summary>
+        /// <returns></returns>
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            return Ok(await _userService.GetAll());
+        }
+
+        /// <summary>
+        /// ПОлучение id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _userService.GetById(id);
+            var response = result.Adapt<GetUserResponse>();
+            return Ok(response);
+        }
+
         /// <summary>
         /// Создание нового пользователя
         /// </summary>
@@ -39,22 +64,6 @@ namespace SocNet1.Controllers
         ///     }
         /// </remarks>
         /// <returns></returns>
-
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok(await _userService.GetAll());
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var result = await _userService.GetById(id);
-            var response = result.Adapt<GetUserResponse>();
-            return Ok(response);
-        }
-
         [HttpPost]
         public async Task<IActionResult> Add(CreateUserRequest request)
         {
@@ -63,6 +72,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных о пользователях
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(User user)
         {
@@ -70,6 +84,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// удаление данных о пользователе
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

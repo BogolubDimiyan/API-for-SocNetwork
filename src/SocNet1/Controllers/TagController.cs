@@ -18,7 +18,30 @@ namespace SocNet1.Controllers
         }
 
         /// <summary>
-        /// Создание нового тега поста
+        /// получение данных о всех тегах
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            return Ok(await _tagService.GetAll());
+        }
+
+        /// <summary>
+        /// получение if тега
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _tagService.GetById(id);
+            var response = result.Adapt<GetTagResponse>();
+            return Ok(response);
+        }
+
+        /// <summary>
+        /// Создание нового тега 
         /// </summary>
         /// <remarks>
         /// Пример запроса:
@@ -28,21 +51,6 @@ namespace SocNet1.Controllers
         ///     }
         /// </remarks>
         /// <returns></returns>
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok(await _tagService.GetAll());
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var result = await _tagService.GetById(id);
-            var response = result.Adapt<GetTagResponse>();
-            return Ok(response);
-        }
-
         [HttpPost]
         public async Task<IActionResult> Add(CreatePostTagsRequest request)
         {
@@ -51,12 +59,23 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// обновление данных о тегах
+        /// </summary>
+        /// <param name="tg"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Tag tg)
         {
             await _tagService.Update(tg);
             return Ok();
         }
+
+        /// <summary>
+        /// Удаление данных о тегах
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

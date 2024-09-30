@@ -46,6 +46,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// обновление данных о событиях
+        /// </summary>
+        /// <param name="ev"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Event ev)
         {
@@ -53,6 +58,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление данных о событии
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

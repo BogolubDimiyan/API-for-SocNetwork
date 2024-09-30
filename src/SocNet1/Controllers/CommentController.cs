@@ -43,6 +43,11 @@ namespace DataAccess.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных о комментарии
+        /// </summary>
+        /// <param name="com"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Comment com)
         {
@@ -50,6 +55,11 @@ namespace DataAccess.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление данных о комментариях
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

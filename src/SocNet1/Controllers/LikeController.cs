@@ -39,6 +39,11 @@ namespace SocNet1.Controllers
             return Ok(await _likeService.GetAll());
         }
 
+        /// <summary>
+        /// Получение id лайков
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -47,6 +52,12 @@ namespace SocNet1.Controllers
             return Ok(response);
         }
 
+
+        /// <summary>
+        /// Добавление данных лайков
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateLikesRequest request)
         {
@@ -55,12 +66,23 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных о лайках
+        /// </summary>
+        /// <param name="likeDto"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Like likeDto)
         {
             await _likeService.Update(likeDto);
             return Ok();
         }
+
+        /// <summary>
+        /// Удаление данных о лайках
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

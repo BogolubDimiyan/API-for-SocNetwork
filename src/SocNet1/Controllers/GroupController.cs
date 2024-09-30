@@ -41,6 +41,12 @@ namespace SocNetq.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Обновление данных о новых группах
+        /// </summary>
+        /// <param name="G"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(Group G)
         {
@@ -48,6 +54,11 @@ namespace SocNetq.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление данных о группах
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

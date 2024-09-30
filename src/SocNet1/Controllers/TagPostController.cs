@@ -18,6 +18,10 @@ namespace SocNet1.Controllers
             _posttgService = posttgService;
         }
 
+        /// <summary>
+        /// Полученние всех данных о тегах постов
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -25,6 +29,11 @@ namespace SocNet1.Controllers
             return Ok(await _posttgService.GetAll());
         }
 
+        /// <summary>
+        /// получение id тега
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -54,6 +63,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// обновление данных о тегах постов
+        /// </summary>
+        /// <param name="posttg"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(PostTag posttg)
         {
@@ -61,6 +75,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// удаление данных о тегах постов
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

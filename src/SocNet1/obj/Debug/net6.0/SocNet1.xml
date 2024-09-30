@@ -20,6 +20,20 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.BlockController.Update(Domain.Models.BlockedUser)">
+            <summary>
+            Обноалвение данных о заблокированных пользователях
+            </summary>
+            <param name="bl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.BlockController.Delete(System.Int32)">
+            <summary>
+            Удаление заблокированных пользователей
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.EventController.Add(SocNet1.Contracts.CreateEventsRequest)">
             <summary>
             Создание нового ивента
@@ -40,6 +54,20 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.EventController.Update(Domain.Models.Event)">
+            <summary>
+            обновление данных о событиях
+            </summary>
+            <param name="ev"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.EventController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о событии
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.FriendController.Add(SocNet1.Contracts.CreateFriendsRequest)">
             <summary>
             Создание нового друга
@@ -55,6 +83,20 @@
                 "updated_at": "2023-10-05 14:30:45.123456"
                 }
             </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.FriendController.Update(Domain.Models.Friend)">
+            <summary>
+            Обновление данных о друзьях
+            </summary>
+            <param name="friendss"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.FriendController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о друзьях
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:SocNet1.Controllers.GroupMemberController.Add(SocNet1.Contracts.CreateGroupMembersRequest)">
@@ -73,6 +115,20 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.GroupMemberController.Update(Domain.Models.GroupMember)">
+            <summary>
+            Обновление данных об участниках группы
+            </summary>
+            <param name="Gm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.GroupMemberController.Delete(System.Int32)">
+            <summary>
+            Удаление данных об участниках группы
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.LikeController.GetAll">
             <summary>
             Создание нового понравившегося поста
@@ -87,6 +143,34 @@
                 }
                 
             </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.LikeController.GetById(System.Int32)">
+            <summary>
+            Получение id лайков
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.LikeController.Add(SocNet1.Contracts.CreateLikesRequest)">
+            <summary>
+            Добавление данных лайков
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.LikeController.Update(Domain.Models.Like)">
+            <summary>
+            Обновление данных о лайках
+            </summary>
+            <param name="likeDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.LikeController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о лайках
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:SocNet1.Controllers.MassegeController.GetAll">
@@ -106,6 +190,34 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.MassegeController.GetById(System.Int32)">
+            <summary>
+            Получение id собщения
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.MassegeController.Add(Domain.Models.Message)">
+            <summary>
+            Добавление данных о сообщениях
+            </summary>
+            <param name="mes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.MassegeController.Update(Domain.Models.Message)">
+            <summary>
+            Обновление данных о сообщениях
+            </summary>
+            <param name="mes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.MassegeController.Delete(System.Int32)">
+            <summary>
+            удаление данных о сообщении
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.NotificationController.GetAll">
             <summary>
             Создание нового оповещения
@@ -123,7 +235,48 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.NotificationController.GetById(System.Int32)">
+            <summary>
+            получение id оповещения
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.NotificationController.Add(SocNet1.Contracts.CreateNotificationsRequest)">
+            <summary>
+            Добавление данных об оповещениях
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.NotificationController.Update(Domain.Models.Notification)">
+            <summary>
+            Обновление данных об оповещених
+            </summary>
+            <param name="notiDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.NotificationController.Delete(System.Int32)">
+            <summary>
+            Удаление данных об оповещении
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.PostController.GetAll">
+            <summary>
+            получение всех данных о постах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.PostController.GetById(System.Int32)">
+            <summary>
+            получени id поста
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.PostController.Add(SocNet1.Contracts.CreatePostTagsRequest)">
             <summary>
             Создание нового поста
             </summary>
@@ -140,9 +293,36 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.PostController.Update(Domain.Models.Post)">
+            <summary>
+            Обновление данных постов
+            </summary>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.PostController.Delete(System.Int32)">
+            <summary>
+            Удаление данных постов
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.TagController.GetAll">
             <summary>
-            Создание нового тега поста
+            получение данных о всех тегах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagController.GetById(System.Int32)">
+            <summary>
+            получение if тега
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagController.Add(SocNet1.Contracts.CreatePostTagsRequest)">
+            <summary>
+            Создание нового тега 
             </summary>
             <remarks>
             Пример запроса:
@@ -151,6 +331,33 @@
                 "name": "#DogsAndCats"
                 }
             </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagController.Update(Domain.Models.Tag)">
+            <summary>
+            обновление данных о тегах
+            </summary>
+            <param name="tg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о тегах
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagPostController.GetAll">
+            <summary>
+            Полученние всех данных о тегах постов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagPostController.GetById(System.Int32)">
+            <summary>
+            получение id тега
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:SocNet1.Controllers.TagPostController.Add(SocNet1.Contracts.CreatePostTagsRequest)">
@@ -167,7 +374,34 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.TagPostController.Update(Domain.Models.PostTag)">
+            <summary>
+            обновление данных о тегах постов
+            </summary>
+            <param name="posttg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.TagPostController.Delete(System.Int32)">
+            <summary>
+            удаление данных о тегах постов
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNet1.Controllers.User1Controller.GetAll">
+            <summary>
+            Полученние всех данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.User1Controller.GetById(System.Int32)">
+            <summary>
+            ПОлучение id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.User1Controller.Add(SocNet1.Contracts.CreateUserRequest)">
             <summary>
             Создание нового пользователя
             </summary>
@@ -190,6 +424,20 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet1.Controllers.User1Controller.Update(Domain.Models.User)">
+            <summary>
+            Обновление данных о пользователях
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet1.Controllers.User1Controller.Delete(System.Int32)">
+            <summary>
+            удаление данных о пользователе
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:DataAccess.Controllers.CommentController.Add(SocNet1.Contracts.CreateCommentsRequest)">
             <summary>
             Создание нового комментария
@@ -205,6 +453,20 @@
                 "updated_at": "2023-10-05 14:30:45.123456"
                 }
             </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Controllers.CommentController.Update(Domain.Models.Comment)">
+            <summary>
+            Обновление данных о комментарии
+            </summary>
+            <param name="com"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Controllers.CommentController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о комментариях
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:SocNet.Controllers.EventattendeeController.Add(SocNet1.Contracts.CreateEventAttendeeRequest)">
@@ -223,6 +485,20 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:SocNet.Controllers.EventattendeeController.Update(Domain.Models.EventAttendee)">
+            <summary>
+            Обновление данных о участниках мероприятия
+            </summary>
+            <param name="ev"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNet.Controllers.EventattendeeController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о участниках мероприятия
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:SocNetq.Controllers.GroupController.Add(SocNet1.Contracts.CreateGroupRequest)">
             <summary>
             Создание новой группы
@@ -238,6 +514,20 @@
                 "updated_at": "2023-10-05 14:30:45.123456"
                 }
             </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SocNetq.Controllers.GroupController.Update(Domain.Models.Group)">
+            <summary>
+            Обновление данных о новых группах
+            </summary>
+            <param name="G"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocNetq.Controllers.GroupController.Delete(System.Int32)">
+            <summary>
+            Удаление данных о группах
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
     </members>

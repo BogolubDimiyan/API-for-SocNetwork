@@ -38,6 +38,11 @@ namespace SocNet1.Controllers
             return Ok(mes);
         }
 
+        /// <summary>
+        /// Получение id собщения
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -49,6 +54,11 @@ namespace SocNet1.Controllers
             return Ok(mes);
         }
 
+        /// <summary>
+        /// Добавление данных о сообщениях
+        /// </summary>
+        /// <param name="mes"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Add(Message mes)
         {
@@ -57,6 +67,11 @@ namespace SocNet1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Обновление данных о сообщениях
+        /// </summary>
+        /// <param name="mes"></param>
+        /// <returns></returns>
         [HttpPut]
         public IActionResult Update(Message mes)
         {
@@ -65,6 +80,11 @@ namespace SocNet1.Controllers
             return Ok(mes);
         }
 
+        /// <summary>
+        /// удаление данных о сообщении
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public IActionResult Delete(int id)
         {
