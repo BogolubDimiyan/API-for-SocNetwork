@@ -94,7 +94,7 @@
         </member>
         <member name="M:SocNet1.Controllers.FriendController.Delete(System.Int32)">
             <summary>
-            Удаление данных о друзьях
+            Удаление данных о друзьях1
             </summary>
             <param name="id"></param>
             <returns></returns>

@@ -2,6 +2,7 @@
 {
     public class GetGroupResponse
     {
+        public int id { get; set; }
         public string name { get; set; } = null!;
         public string description { get; set; } = null!;
         public int created_by { get; set; }
