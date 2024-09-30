@@ -173,7 +173,7 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:SocNet1.Controllers.MassegeController.GetAll">
+        <member name="M:SocNet1.Controllers.MassegeController.Add(SocNet1.Contracts.CreateMessageRequest)">
             <summary>
             Создание нового сообщения
             </summary>
@@ -197,18 +197,11 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:SocNet1.Controllers.MassegeController.Add(Domain.Models.Message)">
-            <summary>
-            Добавление данных о сообщениях
-            </summary>
-            <param name="mes"></param>
-            <returns></returns>
-        </member>
         <member name="M:SocNet1.Controllers.MassegeController.Update(Domain.Models.Message)">
             <summary>
             Обновление данных о сообщениях
             </summary>
-            <param name="mes"></param>
+            <param name="Gm"></param>
             <returns></returns>
         </member>
         <member name="M:SocNet1.Controllers.MassegeController.Delete(System.Int32)">

@@ -411,16 +411,6 @@
   },
   {
     "ContainingType": "SocNet1.Controllers.MassegeController",
-    "Method": "GetAll",
-    "RelativePath": "api/Massege",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SocNet1.Controllers.MassegeController",
     "Method": "Add",
     "RelativePath": "api/Massege",
     "HttpMethod": "POST",
@@ -428,8 +418,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "mes",
-        "Type": "Domain.Models.Message",
+        "Name": "request",
+        "Type": "SocNet1.Contracts.CreateMessageRequest",
         "IsRequired": true
       }
     ],
@@ -444,7 +434,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "mes",
+        "Name": "Gm",
         "Type": "Domain.Models.Message",
         "IsRequired": true
       }

@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using SocNet1.Contracts;
+using Mapster;
 
 namespace SocNet1.Controllers
 {
@@ -8,11 +12,10 @@ namespace SocNet1.Controllers
     [ApiController]
     public class MassegeController : ControllerBase
     {
-        public SocialNetContext Context { get; }
-
-        public MassegeController(SocialNetContext context)
+        private IMessageService _messageService;
+        public MassegeController(IMessageService friendService)
         {
-            Context = context;
+            _messageService = friendService;
         }
 
         /// <summary>
@@ -31,11 +34,12 @@ namespace SocNet1.Controllers
         /// </remarks>
         /// <returns></returns>
 
-        [HttpGet]
-        public IActionResult GetAll()
+        [HttpPost]
+        public async Task<IActionResult> Add(CreateMessageRequest request)
         {
-            List<Message> mes = Context.Messages.ToList();
-            return Ok(mes);
+            var GmDto = request.Adapt<Message>();
+            await _messageService.Create(GmDto);
+            return Ok();
         }
 
         /// <summary>
@@ -44,40 +48,23 @@ namespace SocNet1.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            Message? mes = Context.Messages.Where(x => x.Id == id).FirstOrDefault();
-            if (mes == null)
-            {
-                return BadRequest("Not Found");
-            }
-            return Ok(mes);
-        }
-
-        /// <summary>
-        /// Добавление данных о сообщениях
-        /// </summary>
-        /// <param name="mes"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public IActionResult Add(Message mes)
-        {
-            Context.Messages.Add(mes);
-            Context.SaveChanges();
-            return Ok();
+            var result = await _messageService.GetById(id);
+            var response = result.Adapt<GetMessageResponse>();
+            return Ok(response);
         }
 
         /// <summary>
         /// Обновление данных о сообщениях
         /// </summary>
-        /// <param name="mes"></param>
+        /// <param name="Gm"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Update(Message mes)
+        public async Task<IActionResult> Update(Message Gm)
         {
-            Context.Messages.Update(mes);
-            Context.SaveChanges();
-            return Ok(mes);
+            await _messageService.Update(Gm);
+            return Ok();
         }
 
         /// <summary>
@@ -86,11 +73,9 @@ namespace SocNet1.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Message? mes = Context.Messages.Where(x => x.Id == id).FirstOrDefault();
-            Context.Messages.Remove(mes);
-            Context.SaveChanges();
+            await _messageService.Delete(id);
             return Ok();
         }
     }
