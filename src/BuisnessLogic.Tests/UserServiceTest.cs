@@ -25,15 +25,20 @@ namespace BuisnessLogic.Tests
             service = new UserService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullUser_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectUsers))]
+        public async Task CreateAsync_NewUserShouldNotCreateNewUser(User user)
         {
+            // arrange
+            var newUser = user;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newUser));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             userRepositoryMock.Verify(x => x.Create(It.IsAny<User>()), Times.Never);
+            Assert.IsType<ArgumentException>(ex);
         }
     }
 }

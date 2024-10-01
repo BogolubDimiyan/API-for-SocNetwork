@@ -36,6 +36,7 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model));
             }
+
             await _repositoryWrapper.Com.Create(model);
             await _repositoryWrapper.Save();
         }
