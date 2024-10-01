@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Domain.Interfaces;
 using Domain.Models;
-using System.Xml.Linq;
-using SocNet1.Contracts;
-using Domain.Interfaces;
 using Mapster;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using SocNet1.Contracts;
+using System.Xml.Linq;
 
 namespace DataAccess.Controllers
 {

@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Domain.Interfaces;
 using Domain.Models;
-using Domain.Interfaces;
-using SocNet1.Contracts;
 using Mapster;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using SocNet1.Contracts;
 
 namespace SocNet1.Controllers
 {

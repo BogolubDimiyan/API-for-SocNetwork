@@ -22,4 +22,8 @@
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Дан\Desktop\SocNet1\.editorconfig" />
+  </ItemGroup>
+
 </Project>

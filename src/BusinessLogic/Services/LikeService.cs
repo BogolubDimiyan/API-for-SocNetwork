@@ -32,21 +32,25 @@ namespace BusinessLogic.Services
 
         public async Task Create(Like model)
         {
-            _repositoryWrapper.Like.Create(model);
-            _repositoryWrapper.Save();
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            await _repositoryWrapper.Like.Create(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Update(Like model)
         {
-            _repositoryWrapper.Like.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Like.Update(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Delete(int id)
         {
             var Like = await _repositoryWrapper.Like
                 .FindCondition(x => x.Id == id);
 
-            _repositoryWrapper.Like.Delete(Like.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Like.Delete(Like.First());
+            await _repositoryWrapper.Save();
         }
 
     }

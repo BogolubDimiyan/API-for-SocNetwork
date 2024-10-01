@@ -32,21 +32,25 @@ namespace BusinessLogic.Services
 
         public async Task Create(BlockedUser model)
         {
-            _repositoryWrapper.Bu.Create(model);
-            _repositoryWrapper.Save();
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            await _repositoryWrapper.Bu.Create(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Update(BlockedUser model)
         {
-            _repositoryWrapper.Bu.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Bu.Update(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Delete(int id)
         {
             var ev = await _repositoryWrapper.Bu
                 .FindCondition(x => x.Id == id);
 
-            _repositoryWrapper.Bu.Delete(ev.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Bu.Delete(ev.First());
+            await _repositoryWrapper.Save();
         }
 
     }

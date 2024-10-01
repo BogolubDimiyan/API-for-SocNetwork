@@ -12,7 +12,7 @@ namespace SocNet1.Contracts
         public string last_name { get; set; } = null!;
         public DateTime birthday { get; set; }
         public string gender { get; set; } = null!;
-        public string profile_picture { get; set; } = null!; 
+        public string profile_picture { get; set; } = null!;
         public string bio { get; set; } = null!;
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }

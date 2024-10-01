@@ -1,6 +1,6 @@
-using Domain.Interfaces;
 using BusinessLogic.Services;
 using DataAccess.Wrapper;
+using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -20,24 +20,24 @@ namespace SocNet1
             }));
 
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
-                options => options.UseSqlServer("Server=DESKTOP-SRKQPQK;Database=SocialNet;User Id=DESKTOP-SRKQPQK\\Дан;Integrated Security=True;"));
-            
-                builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
-                builder.Services.AddScoped<IUserService, UserService>();
-                builder.Services.AddScoped<ITagService, TagService>();
-                builder.Services.AddScoped<IPostTagService, PostTagService>();
-                builder.Services.AddScoped<IPrivacySettingService, PrivascySettingService>();
-                builder.Services.AddScoped<IPostService, PostService>();
-                builder.Services.AddScoped<INotificationService, NotificationService>();
-                builder.Services.AddScoped<IMessageService, MessageService>();
-                builder.Services.AddScoped<ILikeService, LikeService>();
-                builder.Services.AddScoped<IGroupService, GroupService>();
-                builder.Services.AddScoped<IGroupMemberService, GroupMemberService>();
-                builder.Services.AddScoped<IFriendService, FriendService>();
-                builder.Services.AddScoped<IEventService, EventService>();
-                builder.Services.AddScoped<IEventAttendeeService, EventAttendeeService>();
-                builder.Services.AddScoped<ICommentService, CommentService>();
-                builder.Services.AddScoped<IBlockedUserService, BlockedUserService>();
+                options => options.UseSqlServer("Server=DESKTOP-SRKQPQK;Database=SocialNet;User Id=DESKTOP-SRKQPQK\\пїЅпїЅпїЅ;Integrated Security=True;"));
+
+            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ITagService, TagService>();
+            builder.Services.AddScoped<IPostTagService, PostTagService>();
+            builder.Services.AddScoped<IPrivacySettingService, PrivascySettingService>();
+            builder.Services.AddScoped<IPostService, PostService>();
+            builder.Services.AddScoped<INotificationService, NotificationService>();
+            builder.Services.AddScoped<IMessageService, MessageService>();
+            builder.Services.AddScoped<ILikeService, LikeService>();
+            builder.Services.AddScoped<IGroupService, GroupService>();
+            builder.Services.AddScoped<IGroupMemberService, GroupMemberService>();
+            builder.Services.AddScoped<IFriendService, FriendService>();
+            builder.Services.AddScoped<IEventService, EventService>();
+            builder.Services.AddScoped<IEventAttendeeService, EventAttendeeService>();
+            builder.Services.AddScoped<ICommentService, CommentService>();
+            builder.Services.AddScoped<IBlockedUserService, BlockedUserService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -47,16 +47,16 @@ namespace SocNet1
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Социальная сеть API",
-                    Description = "API созданный для социальной сети",
+                    Title = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ API",
+                    Description = "API пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
-                        Name = "Пример контакта",
+                        Name = "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
                         Url = new Uri("https://example.com/contact")
                     },
                     License = new Microsoft.OpenApi.Models.OpenApiLicense
                     {
-                        Name = "Пример лицензии",
+                        Name = "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
                         Url = new Uri("https://example.com/license")
                     }
 

@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Domain.Models;
+﻿using BusinessLogic.Services;
 using Domain.Interfaces;
-using BusinessLogic.Services;
-using SocNet1.Contracts;
+using Domain.Models;
 using Mapster;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using SocNet1.Contracts;
 namespace SocNet1.Controllers
 {
     [Route("api/[controller]")]

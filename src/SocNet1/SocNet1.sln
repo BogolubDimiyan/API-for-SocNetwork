@@ -5,11 +5,22 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocNet1", "SocNet1.csproj", "{A952A94A-D124-4683-85B6-74394FCCF236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{F99F2D03-80FD-4E78-A6F5-406D033AC947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{F99F2D03-80FD-4E78-A6F5-406D033AC947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic.csproj", "{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic.csproj", "{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{ADFBC64D-E856-40A0-BABD-77CFD74316F3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessLogic.Tests", "..\BuisnessLogic.Tests\BuisnessLogic.Tests.csproj", "{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB25EABF-57F7-4239-8CAD-74120A329849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A8E02A6-65C3-4D94-B125-329299830246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +44,20 @@ Global
 		{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A952A94A-D124-4683-85B6-74394FCCF236} = {3A8E02A6-65C3-4D94-B125-329299830246}
+		{F99F2D03-80FD-4E78-A6F5-406D033AC947} = {3A8E02A6-65C3-4D94-B125-329299830246}
+		{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B} = {3A8E02A6-65C3-4D94-B125-329299830246}
+		{1B3A59E0-25CB-499B-B2C0-5D1E458D1514} = {3A8E02A6-65C3-4D94-B125-329299830246}
+		{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7} = {BB25EABF-57F7-4239-8CAD-74120A329849}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D38A5663-21BF-4B21-9587-A7568C8E2241}

@@ -3,8 +3,115 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\blockeduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\eventattendeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\groupmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\posttagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\privacysettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\messageservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\groupservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\groupmemberservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\posttagservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\friendservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\likeservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\notificationservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\postservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\privacysettingservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\tagservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\eventattendeeservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\commentservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\blockeduserservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\eventservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\controllers\\user1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\user1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\socnet1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:socnet1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,10 +238,6 @@
       "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\tagpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\controllers\\user1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:controllers\\user1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\contracts\\createblocksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:contracts\\createblocksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -144,9 +247,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\ifriendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -197,33 +297,6 @@
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\iblockeduserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\eventattendeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\groupmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\posttagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -239,9 +312,6 @@
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\ieventattendeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -255,9 +325,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\iprivacysettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -318,7 +385,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -326,58 +393,514 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\CommentService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\CommentService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:33:28.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlockedUserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:33:43.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventAttendeeService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventAttendeeService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\EventAttendeeService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventAttendeeService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\EventAttendeeService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:54:00.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\EventService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:53:51.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FriendService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\FriendService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\FriendService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\FriendService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\FriendService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:52:43.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupMemberService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\GroupMemberService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupMemberService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\GroupMemberService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:53:25.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\GroupService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:28:03.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LikeService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\LikeService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\LikeService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\LikeService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\LikeService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:53:15.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\MessageService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\MessageService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:06:28.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\NotificationService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\NotificationService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:31:46.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PostService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\PostService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:45:27.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PostTagService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostTagService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PostTagService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostTagService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\PostTagService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:37:55.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrivacySettingService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PrivacySettingService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PrivacySettingService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PrivacySettingService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\PrivacySettingService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:38:29.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\TagService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\TagService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\TagService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\TagService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:29:15.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:28:25.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UserServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\UserServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UserServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\UserServiceTest.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:09:25.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostTagServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PostTagServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\PostTagServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PostTagServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\PostTagServiceTest.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:39:19.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\MessageServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\MessageServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\MessageServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\MessageServiceTest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:44:15.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FriendServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\FriendServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\FriendServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\FriendServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\FriendServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:24:53.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LikeServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\LikeServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\LikeServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\LikeServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\LikeServiceTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:45:48.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GroupMemberServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\GroupMemberServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\GroupMemberServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\GroupMemberServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\GroupMemberServiceTest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:47:30.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\GroupServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\GroupServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\GroupServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\GroupServiceTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:49:29.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\NotificationServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\NotificationServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\NotificationServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\NotificationServiceTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:21:10.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IGroupRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IGroupRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:22:18.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PrivacySettingServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:34:01.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TagServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\TagServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\TagServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\TagServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\TagServiceTest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:26:07.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EventAttendeeServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\EventAttendeeServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\EventAttendeeServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\EventAttendeeServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\EventAttendeeServiceTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:00:54.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PostServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PostServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\PostServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PostServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\PostServiceTest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:41:26.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommentServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\CommentServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\CommentServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\CommentServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\CommentServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:05:05.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BlockedUserServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:06:40.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EventServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\EventServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\EventServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\EventServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\EventServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:58:54.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "MessageController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\MessageController.cs",
               "RelativeToolTip": "Controllers\\MessageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T15:45:19.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FriendController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\FriendController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FriendController.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\FriendController.cs",
-              "RelativeToolTip": "Controllers\\FriendController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wDwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:59:55.249Z",
+              "WhenOpened": "2024-10-01T08:05:18.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 39,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\GroupController.cs",
               "RelativeToolTip": "Controllers\\GroupController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wDkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:59:47.314Z"
+              "WhenOpened": "2024-09-30T07:59:47.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 37,
               "Title": "GroupMemberValuesController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\GroupMemberValuesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GroupMemberValuesController.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\GroupMemberValuesController.cs",
               "RelativeToolTip": "Controllers\\GroupMemberValuesController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAA1wC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T07:59:51.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 31,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ITagRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:23:18.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SocNet1.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\SocNet1.csproj",
+              "RelativeDocumentMoniker": "SocNet1.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\SocNet1.csproj",
+              "RelativeToolTip": "SocNet1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T09:01:00.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\User1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\User1Controller.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\User1Controller.cs",
+              "RelativeToolTip": "Controllers\\User1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:29:03.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FriendController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\FriendController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\FriendController.cs",
+              "RelativeToolTip": "Controllers\\FriendController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:59:55.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "LikeController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\LikeController.cs",
               "RelativeDocumentMoniker": "Controllers\\LikeController.cs",
@@ -390,19 +913,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 40,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventController.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\EventController.cs",
               "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwD0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAA+wD0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:44:53.357Z"
+              "WhenOpened": "2024-09-22T15:44:53.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 41,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
@@ -410,11 +934,12 @@
               "RelativeToolTip": "Controllers\\CommentController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAQwDoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:44:49.124Z"
+              "WhenOpened": "2024-09-22T15:44:49.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 42,
               "Title": "BlockController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\BlockController.cs",
               "RelativeDocumentMoniker": "Controllers\\BlockController.cs",
@@ -422,11 +947,12 @@
               "RelativeToolTip": "Controllers\\BlockController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwDoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:07:11.444Z"
+              "WhenOpened": "2024-09-28T15:07:11.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 43,
               "Title": "CreatePostsRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreatePostsRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreatePostsRequest.cs",
@@ -434,11 +960,12 @@
               "RelativeToolTip": "Contracts\\CreatePostsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:29:30.105Z"
+              "WhenOpened": "2024-09-30T08:29:30.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 44,
               "Title": "CreatePostTagsRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreatePostTagsRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreatePostTagsRequest.cs",
@@ -446,11 +973,12 @@
               "RelativeToolTip": "Contracts\\CreatePostTagsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:29:27.765Z"
+              "WhenOpened": "2024-09-30T08:29:27.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 45,
               "Title": "CreatePrivacySettingRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreatePrivacySettingRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreatePrivacySettingRequest.cs",
@@ -458,11 +986,12 @@
               "RelativeToolTip": "Contracts\\CreatePrivacySettingRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:29:25.209Z"
+              "WhenOpened": "2024-09-30T08:29:25.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 48,
               "Title": "GetBlocksResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetBlocksResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetBlocksResponse.cs",
@@ -470,23 +999,25 @@
               "RelativeToolTip": "Contracts\\GetBlocksResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:17:57.027Z"
+              "WhenOpened": "2024-09-28T15:17:57.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 51,
               "Title": "GetEventResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetEventResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetEventResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetEventResponse.cs",
               "RelativeToolTip": "Contracts\\GetEventResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:27:02.263Z"
+              "WhenOpened": "2024-09-30T08:27:02.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 52,
               "Title": "GetFriendsResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetFriendsResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetFriendsResponse.cs",
@@ -494,23 +1025,25 @@
               "RelativeToolTip": "Contracts\\GetFriendsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:26:40.776Z"
+              "WhenOpened": "2024-09-30T08:26:40.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 53,
               "Title": "GetGroupMembersResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetGroupMembersResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetGroupMembersResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetGroupMembersResponse.cs",
               "RelativeToolTip": "Contracts\\GetGroupMembersResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:26:28.659Z"
+              "WhenOpened": "2024-09-30T08:26:28.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 47,
               "Title": "CreateUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreateUserRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreateUserRequest.cs",
@@ -518,11 +1051,12 @@
               "RelativeToolTip": "Contracts\\CreateUserRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:18:11.895Z"
+              "WhenOpened": "2024-09-30T08:18:11.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 46,
               "Title": "CreateTagRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreateTagRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreateTagRequest.cs",
@@ -530,35 +1064,38 @@
               "RelativeToolTip": "Contracts\\CreateTagRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T11:48:03.11Z"
+              "WhenOpened": "2024-09-28T11:48:03.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 50,
               "Title": "GetEventAttendeeResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetEventAttendeeResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetEventAttendeeResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetEventAttendeeResponse.cs",
               "RelativeToolTip": "Contracts\\GetEventAttendeeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:27:30.639Z"
+              "WhenOpened": "2024-09-30T08:27:30.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 49,
               "Title": "GetCommentsResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetCommentsResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetCommentsResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetCommentsResponse.cs",
               "RelativeToolTip": "Contracts\\GetCommentsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:27:49.39Z"
+              "WhenOpened": "2024-09-30T08:27:49.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 54,
               "Title": "GetGroupResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetGroupResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetGroupResponse.cs",
@@ -566,83 +1103,90 @@
               "RelativeToolTip": "Contracts\\GetGroupResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:26:16.786Z"
+              "WhenOpened": "2024-09-30T08:26:16.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 55,
               "Title": "GetLikesResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetLikesResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetLikesResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetLikesResponse.cs",
               "RelativeToolTip": "Contracts\\GetLikesResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:26:03.884Z"
+              "WhenOpened": "2024-09-30T08:26:03.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 56,
               "Title": "GetNotificationsResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetNotificationsResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetNotificationsResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetNotificationsResponse.cs",
               "RelativeToolTip": "Contracts\\GetNotificationsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:25:23.819Z"
+              "WhenOpened": "2024-09-30T08:25:23.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 57,
               "Title": "GetPostsResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPostsResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetPostsResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPostsResponse.cs",
               "RelativeToolTip": "Contracts\\GetPostsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:25:09.529Z"
+              "WhenOpened": "2024-09-30T08:25:09.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 58,
               "Title": "GetPostTagsResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPostTagsResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetPostTagsResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPostTagsResponse.cs",
               "RelativeToolTip": "Contracts\\GetPostTagsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:24:55.609Z"
+              "WhenOpened": "2024-09-30T08:24:55.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 60,
               "Title": "GetTagResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetTagResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetTagResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetTagResponse.cs",
               "RelativeToolTip": "Contracts\\GetTagResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:17:51.175Z"
+              "WhenOpened": "2024-09-30T08:17:51.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 59,
               "Title": "GetPrivacySettingResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPrivacySettingResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetPrivacySettingResponse.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetPrivacySettingResponse.cs",
               "RelativeToolTip": "Contracts\\GetPrivacySettingResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:17:58.327Z"
+              "WhenOpened": "2024-09-30T08:17:58.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 61,
               "Title": "GetUserResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\GetUserResponse.cs",
               "RelativeDocumentMoniker": "Contracts\\GetUserResponse.cs",
@@ -650,11 +1194,12 @@
               "RelativeToolTip": "Contracts\\GetUserResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:17:47.588Z"
+              "WhenOpened": "2024-09-30T08:17:47.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 65,
               "Title": "TagController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\TagController.cs",
               "RelativeDocumentMoniker": "Controllers\\TagController.cs",
@@ -662,11 +1207,12 @@
               "RelativeToolTip": "Controllers\\TagController.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAkwA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:32:25.606Z"
+              "WhenOpened": "2024-09-28T15:32:25.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 63,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostController.cs",
@@ -674,23 +1220,25 @@
               "RelativeToolTip": "Controllers\\PostController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:34:51.905Z"
+              "WhenOpened": "2024-09-28T15:34:51.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 62,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\NotificationController.cs",
               "RelativeToolTip": "Controllers\\NotificationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwDkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:55:04.978Z"
+              "WhenOpened": "2024-09-30T07:55:04.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 64,
               "Title": "EventattendeeController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\EventattendeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventattendeeController.cs",
@@ -698,11 +1246,12 @@
               "RelativeToolTip": "Controllers\\EventattendeeController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:04:04.897Z"
+              "WhenOpened": "2024-09-30T08:04:04.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 66,
               "Title": "TagPostController.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\TagPostController.cs",
               "RelativeDocumentMoniker": "Controllers\\TagPostController.cs",
@@ -710,11 +1259,12 @@
               "RelativeToolTip": "Controllers\\TagPostController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwEIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:30:54.789Z"
+              "WhenOpened": "2024-09-28T15:30:54.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 67,
               "Title": "CreateBlocksRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Contracts\\CreateBlocksRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\CreateBlocksRequest.cs",
@@ -722,23 +1272,12 @@
               "RelativeToolTip": "Contracts\\CreateBlocksRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:15:08.046Z"
+              "WhenOpened": "2024-09-28T15:15:08.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "User1Controller.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\User1Controller.cs",
-              "RelativeDocumentMoniker": "Controllers\\User1Controller.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Controllers\\User1Controller.cs",
-              "RelativeToolTip": "Controllers\\User1Controller.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:29:03.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 68,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -746,11 +1285,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwEEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T08:28:08.52Z"
+              "WhenOpened": "2024-09-22T08:28:08.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 69,
               "Title": "ILikeRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ILikeRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ILikeRepository.cs",
@@ -758,23 +1298,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\ILikeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:28.863Z"
+              "WhenOpened": "2024-09-22T14:22:28.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IEventRepository.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IEventRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IEventRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:21:52.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 70,
               "Title": "IFriendRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IFriendRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IFriendRepository.cs",
@@ -782,11 +1311,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IFriendRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:04.329Z"
+              "WhenOpened": "2024-09-22T14:22:04.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 71,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\UserRepository.cs",
@@ -794,11 +1324,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:11:41.486Z"
+              "WhenOpened": "2024-09-20T07:11:41.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 72,
               "Title": "TagRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\TagRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\TagRepository.cs",
@@ -806,11 +1337,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\TagRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T08:13:46.387Z"
+              "WhenOpened": "2024-09-22T08:13:46.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 73,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
@@ -818,11 +1350,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:18:59.217Z"
+              "WhenOpened": "2024-09-22T09:18:59.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 74,
               "Title": "PostTagRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\PostTagRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\PostTagRepository.cs",
@@ -830,11 +1363,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\PostTagRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:43:18.871Z"
+              "WhenOpened": "2024-09-22T15:43:18.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 75,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\PostRepository.cs",
@@ -842,11 +1376,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\PostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:43:14.404Z"
+              "WhenOpened": "2024-09-22T15:43:14.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 76,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\MessageRepository.cs",
@@ -854,11 +1389,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\MessageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:43:05.793Z"
+              "WhenOpened": "2024-09-22T15:43:05.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 77,
               "Title": "NotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\NotificationRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\NotificationRepository.cs",
@@ -866,11 +1402,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\NotificationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:53:48.264Z"
+              "WhenOpened": "2024-09-22T09:53:48.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 78,
               "Title": "LikeRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\LikeRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\LikeRepository.cs",
@@ -878,11 +1415,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\LikeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:43:02.021Z"
+              "WhenOpened": "2024-09-22T15:43:02.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 79,
               "Title": "GroupMemberRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\GroupMemberRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\GroupMemberRepository.cs",
@@ -890,11 +1428,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\GroupMemberRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:29:33.709Z"
+              "WhenOpened": "2024-09-22T10:29:33.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 80,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\GroupRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\GroupRepository.cs",
@@ -902,11 +1441,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\GroupRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:29:37.453Z"
+              "WhenOpened": "2024-09-22T10:29:37.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 81,
               "Title": "FriendRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\FriendRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\FriendRepository.cs",
@@ -914,11 +1454,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\FriendRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:50:22.979Z"
+              "WhenOpened": "2024-09-22T10:50:22.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 82,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\EventRepository.cs",
@@ -926,11 +1467,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\EventRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:42:40.428Z"
+              "WhenOpened": "2024-09-22T15:42:40.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 83,
               "Title": "EventAttendeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\EventAttendeeRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\EventAttendeeRepository.cs",
@@ -938,11 +1480,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\EventAttendeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:42:37.312Z"
+              "WhenOpened": "2024-09-22T15:42:37.312Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 84,
               "Title": "BlockedUserRepository .cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Repositories\\BlockedUserRepository .cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\BlockedUserRepository .cs",
@@ -950,11 +1493,12 @@
               "RelativeToolTip": "..\\DataAccess\\Repositories\\BlockedUserRepository .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T11:23:01.787Z"
+              "WhenOpened": "2024-09-22T11:23:01.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 85,
               "Title": "IBlockedUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IBlockedUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IBlockedUserRepository.cs",
@@ -962,119 +1506,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IBlockedUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:20:10.736Z"
+              "WhenOpened": "2024-09-22T14:20:10.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "EventAttendeeService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventAttendeeService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\EventAttendeeService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventAttendeeService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\EventAttendeeService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:54:00.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\EventService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\EventService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:53:51.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "FriendService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\FriendService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\FriendService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\FriendService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\FriendService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:52:43.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "GroupMemberService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupMemberService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\GroupMemberService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupMemberService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\GroupMemberService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:53:25.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\GroupService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\GroupService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\GroupService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:28:03.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "LikeService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\LikeService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\LikeService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\LikeService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\LikeService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA1wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:53:15.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\MessageService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\MessageService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\MessageService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:06:28.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PostService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\PostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:45:27.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "PostTagService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostTagService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PostTagService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PostTagService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\PostTagService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:37:55.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 86,
               "Title": "ICommentService.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ICommentService.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ICommentService.cs",
@@ -1082,11 +1519,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\ICommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:20:40.342Z"
+              "WhenOpened": "2024-09-22T14:20:40.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 87,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ICommentRepository.cs",
@@ -1094,11 +1532,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\ICommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:20:34.612Z"
+              "WhenOpened": "2024-09-22T14:20:34.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 88,
               "Title": "IBlockedUserService .cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IBlockedUserService .cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IBlockedUserService .cs",
@@ -1106,11 +1545,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IBlockedUserService .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:20:18.967Z"
+              "WhenOpened": "2024-09-22T14:20:18.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 89,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserRepository.cs",
@@ -1118,11 +1558,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:23:26.552Z"
+              "WhenOpened": "2024-09-22T14:23:26.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 90,
               "Title": "IEventAttendeeService.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IEventAttendeeService.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IEventAttendeeService.cs",
@@ -1130,23 +1571,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IEventAttendeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:21:00.211Z"
+              "WhenOpened": "2024-09-22T14:21:00.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "IGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IGroupRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IGroupRepository.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IGroupRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:18.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 91,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IMessageRepository.cs",
@@ -1154,11 +1584,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IMessageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:35.852Z"
+              "WhenOpened": "2024-09-22T14:22:35.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 92,
               "Title": "INotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\INotificationRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\INotificationRepository.cs",
@@ -1166,11 +1597,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\INotificationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:42.021Z"
+              "WhenOpened": "2024-09-22T14:22:42.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 93,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\INotificationService.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\INotificationService.cs",
@@ -1178,11 +1610,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\INotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:45.234Z"
+              "WhenOpened": "2024-09-22T14:22:45.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 94,
               "Title": "IPostTagRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IPostTagRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IPostTagRepository.cs",
@@ -1190,11 +1623,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IPostTagRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:22:55.213Z"
+              "WhenOpened": "2024-09-22T14:22:55.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 95,
               "Title": "IPrivacySettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\IPrivacySettingRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IPrivacySettingRepository.cs",
@@ -1202,23 +1636,12 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IPrivacySettingRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:23:02.182Z"
+              "WhenOpened": "2024-09-22T14:23:02.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "ITagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ITagRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ITagRepository.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Interfaces\\ITagRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\ITagRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:23:18.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 96,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Tag.cs",
@@ -1226,11 +1649,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:53.498Z"
+              "WhenOpened": "2024-09-22T14:19:53.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 97,
               "Title": "PrivacySetting.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\PrivacySetting.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\PrivacySetting.cs",
@@ -1238,11 +1662,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\PrivacySetting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:46.331Z"
+              "WhenOpened": "2024-09-22T14:19:46.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 98,
               "Title": "PostTag.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\PostTag.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\PostTag.cs",
@@ -1250,11 +1675,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\PostTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:37.993Z"
+              "WhenOpened": "2024-09-22T14:19:37.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 99,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Post.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Post.cs",
@@ -1262,11 +1688,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Post.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:33.262Z"
+              "WhenOpened": "2024-09-22T14:19:33.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 100,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Notification.cs",
@@ -1274,11 +1701,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:29.396Z"
+              "WhenOpened": "2024-09-22T14:19:29.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 101,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Message.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Message.cs",
@@ -1286,11 +1714,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:26.097Z"
+              "WhenOpened": "2024-09-22T14:19:26.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 102,
               "Title": "Like.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Like.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Like.cs",
@@ -1298,11 +1727,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Like.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:23.008Z"
+              "WhenOpened": "2024-09-22T14:19:23.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 103,
               "Title": "GroupMember.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\GroupMember.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\GroupMember.cs",
@@ -1310,11 +1740,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\GroupMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:20.096Z"
+              "WhenOpened": "2024-09-22T14:19:20.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 104,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Group.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Group.cs",
@@ -1322,11 +1753,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Group.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:16.057Z"
+              "WhenOpened": "2024-09-22T14:19:16.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 105,
               "Title": "Friend.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Friend.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Friend.cs",
@@ -1334,11 +1766,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Friend.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:12.707Z"
+              "WhenOpened": "2024-09-22T14:19:12.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 106,
               "Title": "EventAttendee.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\EventAttendee.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\EventAttendee.cs",
@@ -1346,11 +1779,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\EventAttendee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:19:08.412Z"
+              "WhenOpened": "2024-09-22T14:19:08.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 107,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Event.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Event.cs",
@@ -1358,11 +1792,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:18:58.154Z"
+              "WhenOpened": "2024-09-22T14:18:58.154Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 108,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\Comment.cs",
@@ -1370,11 +1805,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:18:46.471Z"
+              "WhenOpened": "2024-09-22T14:18:46.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 109,
               "Title": "BlockedUser.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\BlockedUser.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Models\\BlockedUser.cs",
@@ -1382,11 +1818,12 @@
               "RelativeToolTip": "..\\Domain\\Models\\BlockedUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:18:32.727Z"
+              "WhenOpened": "2024-09-22T14:18:32.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 110,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Class1.cs",
@@ -1394,11 +1831,12 @@
               "RelativeToolTip": "..\\DataAccess\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:32:56.487Z"
+              "WhenOpened": "2024-09-20T06:32:56.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 111,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "..\\BusinessLogic\\Class1.cs",
@@ -1406,11 +1844,12 @@
               "RelativeToolTip": "..\\BusinessLogic\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:33:54.659Z"
+              "WhenOpened": "2024-09-20T06:33:54.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 112,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Class1.cs",
@@ -1418,7 +1857,8 @@
               "RelativeToolTip": "..\\Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:33:38.552Z"
+              "WhenOpened": "2024-09-20T06:33:38.552Z",
+              "EditorCaption": ""
             }
           ]
         }

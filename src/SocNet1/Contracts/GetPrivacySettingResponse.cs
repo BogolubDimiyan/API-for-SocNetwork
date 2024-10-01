@@ -2,7 +2,7 @@
 {
     public class GetPrivacySettingResponse
     {
-        public int id {  get; set; }
+        public int id { get; set; }
         public int user_id { get; set; }
         public string profile_visible { get; set; } = null!;
         public string post_vidible { get; set; } = null!;

@@ -2,7 +2,7 @@
 {
     public class GetPostsResponse
     {
-        public int id {  get; set; }
+        public int id { get; set; }
         public int user_id { get; set; }
         public string content { get; set; } = null!;
         public string image_url { get; set; } = null!;

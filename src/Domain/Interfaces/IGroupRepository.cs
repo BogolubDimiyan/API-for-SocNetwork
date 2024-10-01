@@ -9,5 +9,6 @@ namespace Domain.Interfaces
 {
     public interface IGroupRepository : IRepositoryBase<Group>
     {
+        void Create(System.Text.RegularExpressions.Group group);
     }
 }

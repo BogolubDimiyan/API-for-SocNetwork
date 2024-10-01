@@ -1,11 +1,11 @@
 ﻿using Domain.Interfaces;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Domain.Models;
-using SocNet1.Contracts;
-using Microsoft.AspNetCore.Identity;
-using System.Reflection;
 using Mapster;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using SocNet1.Contracts;
+using System.Reflection;
 
 namespace SocNet1.Controllers
 {
@@ -18,7 +18,7 @@ namespace SocNet1.Controllers
         {
             _userService = userService;
         }
-       
+
         /// <summary>
         /// Полученние всех данных
         /// </summary>

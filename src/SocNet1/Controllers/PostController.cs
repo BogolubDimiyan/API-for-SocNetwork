@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BusinessLogic.Services;
+using Domain.Interfaces;
+using Domain.Models;
+using Mapster;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
-using Domain.Models;
-using Domain.Interfaces;
-using BusinessLogic.Services;
 using SocNet1.Contracts;
-using Mapster;
 
 namespace SocNet1.Controllers
 {
