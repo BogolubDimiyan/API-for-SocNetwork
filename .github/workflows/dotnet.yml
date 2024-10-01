@@ -22,6 +22,6 @@ jobs:
       run: |
         find . -name "SocNet1.sln"
     - name: Build
-      run: dotnet build ./src/SocNet1.sln --configuration Release
+      run: dotnet build ./src/SocNet1/SocNet1.sln --configuration Release
     - name: Test
-      run: dotnet test ./src/SocNet1.sln --configuration Release --no-build
+      run: dotnet test ./src/SocNet1/SocNet1.sln --configuration Release --no-build
