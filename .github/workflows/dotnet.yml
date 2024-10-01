@@ -17,10 +17,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1'
-    - name: Find SocNet1.sln
-      run: |
-        find . -name "SocNet1.sln"
+        dotnet-version: '6.0.x'
     - name: Build
       run: dotnet build ./src/SocNet1/SocNet1.sln --configuration Release
     - name: Test
