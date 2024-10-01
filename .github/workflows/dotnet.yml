@@ -18,15 +18,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1'
-    - name: Check file existence
+    - name: Find SocNet1.sln
       run: |
-        ls -l ./src
-        if [ -f ./src/SocNet1.sln ]; then
-          echo "File exists"
-        else
-          echo "File does not exist"
-          exit 1
-        fi
+        find . -name "SocNet1.sln"
     - name: Build
       run: dotnet build ./src/SocNet1.sln --configuration Release
     - name: Test
