@@ -19,6 +19,6 @@ jobs:
       with:
         dotnet-version: '3.1'
     - name: Build
-      run: dotnet build C:/Users/ДанDocuments/GitHub/API/src/SocNet1.sln --configuration Release
+      run: dotnet build ./src/SocNet1.sln --configuration Release
     - name: Test
-      run: dotnet test --configuration Release --no-build
+      run: dotnet test ./src/SocNet1.sln --configuration Release --no-build
