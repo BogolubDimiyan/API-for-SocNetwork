@@ -36,9 +36,21 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model));
             }
+
+            if (string.IsNullOrEmpty(model.ProfileVisibility))
+            {
+                throw new ArgumentNullException(nameof(model.ProfileVisibility));
+            }
+
+            if (model.UserId == 0)
+            {
+                throw new ArgumentNullException(nameof(model.UserId));
+            }
+
             await _repositoryWrapper.Priv.Create(model);
             await _repositoryWrapper.Save();
         }
+
         public async Task Update(PrivacySetting model)
         {
             await _repositoryWrapper.Priv.Update(model);

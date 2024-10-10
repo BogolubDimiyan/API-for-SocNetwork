@@ -26,15 +26,48 @@ namespace BuisnessLogic.Tests
             service = new PrivascySettingService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullPrivacySetting_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectPrivacy))]
+        public async Task CreateAsync_NewUserShouldNotCreateNewUser(PrivacySetting privacy)
         {
+            // arrange
+            var newprivacy = privacy;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newprivacy));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             prsetRepositoryMock.Verify(x => x.Create(It.IsAny<PrivacySetting>()), Times.Never);
+
+        }
+
+        public static IEnumerable<object[]> GetIncorrectPrivacy()
+        {
+            return new List<object[]>
+            {
+                new object[] { new PrivacySetting { UserId = 0, FriendRequests = "", PostVisibility = "", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
+                new object[] { new PrivacySetting { UserId = 0, FriendRequests = "Test", PostVisibility = "", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
+                new object[] { new PrivacySetting { UserId = 0, FriendRequests = "", PostVisibility = "Test", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
+                new object[] { new PrivacySetting { UserId = 0, FriendRequests = "", PostVisibility = "", ProfileVisibility= "Test", UpdatedAt = DateTime.MaxValue } },
+                new object[] { new PrivacySetting { UserId = 1, FriendRequests = "", PostVisibility = "", ProfileVisibility= "Test", UpdatedAt = DateTime.MaxValue } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewUserShouldCreateNewUser()
+        {
+            var newprivacy = new PrivacySetting
+            {
+               
+                UpdatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newprivacy);
+
+            // aseert
+            prsetRepositoryMock.Verify(x => x.Create(It.IsAny<PrivacySetting>()), Times.Once);
         }
     }
 }

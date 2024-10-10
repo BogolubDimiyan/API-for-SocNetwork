@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace BuisnessLogic.Tests
 {
@@ -26,15 +27,43 @@ namespace BuisnessLogic.Tests
             service = new TagService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullTag_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectTags))]
+        public async Task CreateAsync_NewTagShouldNotCreateTag(Tag tag)
         {
+            // arrange
+            var newTag = tag;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAsync<ArgumentNullException>(() => service.Create(newTag));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             tagRepositoryMock.Verify(x => x.Create(It.IsAny<Tag>()), Times.Never);
+        }
+
+        public static IEnumerable<object[]> GetIncorrectTags()
+        {
+            return new List<object[]>
+            {
+                new object[] { new Tag {Name = "" } },
+                new object[] { new Tag {Name = " " } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewTagShouldCreateNewTag()
+        {
+            var newTag = new Tag
+            {
+                Name = "Test",
+            };
+
+            // act
+            await service.Create(newTag);
+
+            // assert
+            tagRepositoryMock.Verify(x => x.Create(It.IsAny<Tag>()), Times.Once);
         }
     }
 }

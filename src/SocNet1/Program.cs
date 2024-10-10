@@ -47,16 +47,16 @@ namespace SocNet1
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "���������� ���� API",
-                    Description = "API ��������� ��� ���������� ����",
+                    Title = "API for social network",
+                    Description = "API that making for using in social network",
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
-                        Name = "������ ��������",
+                        Name = "example of contact",
                         Url = new Uri("https://example.com/contact")
                     },
                     License = new Microsoft.OpenApi.Models.OpenApiLicense
                     {
-                        Name = "������ ��������",
+                        Name = "example of license",
                         Url = new Uri("https://example.com/license")
                     }
 

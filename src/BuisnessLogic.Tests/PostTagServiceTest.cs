@@ -26,15 +26,44 @@ namespace BuisnessLogic.Tests
             service = new PostTagService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullPostTag_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectPostTags))]
+        public async Task CreateAsync_NewPostTagShouldNotCreateNewPostedTag(PostTag ptag)
         {
+            // arrange
+            var newPostTag = ptag;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newPostTag));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             posttgRepositoryMock.Verify(x => x.Create(It.IsAny<PostTag>()), Times.Never);
+            Assert.IsType<ArgumentException>(ex);
+        }
+
+        public static IEnumerable<object[]> GetIncorrectPostTags()
+        {
+            return new List<object[]>
+            {
+                new object[] { new PostTag { } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewUserShouldCreateNewUser()
+        {
+            var newPostTag = new PostTag
+            {
+                PostId = 1,
+
+            };
+
+            // act
+            await service.Create(newPostTag);
+
+            // aseert
+            posttgRepositoryMock.Verify(x => x.Create(It.IsAny<PostTag>()), Times.Once);
         }
     }
 }

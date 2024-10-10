@@ -1,9 +1,11 @@
 ﻿using BusinessLogic.Services;
 using Domain.Interfaces;
+using Domain.Models;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -25,15 +27,48 @@ namespace BuisnessLogic.Tests
 
             service = new GroupService(repositoryWrapperMoq.Object);
         }
-        [Fact]
-        public async Task CreateAsync_NullGroup_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectGroup))]
+        public async Task CreateAsync_NewUserShouldNotCreateNewUser(Domain.Models.Group group)
         {
+            // arrange
+            var newGroup = group;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newGroup));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
-            GRepositoryMock.Verify(x => x.Create(It.IsAny<Group>()), Times.Never);
+            GRepositoryMock.Verify(x => x.Create(It.IsAny<Domain.Models.Group>()), Times.Never);
+            Assert.IsType<ArgumentException>(ex);
+        }
+
+        public static IEnumerable<object[]> GetIncorrectGroup()
+        {
+            return new List<object[]>
+            {
+                new object[] { new Domain.Models.Group { Name = "", Description = "", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Domain.Models.Group { Name = "Test", Description = "", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Domain.Models.Group { Name = "Test", Description = "Group just for Test, and that's all", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+            };
+        }
+        public async Task CreateAsyncNewGroupShouldCreateNewGroupr()
+        {
+            var newGroup = new Domain.Models.Group
+            {
+                Name = "",
+                Description = "",
+                CreatedBy = 0,
+                CreatedAt = DateTime.MaxValue,
+                UpdatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newGroup);
+
+            // aseert
+            GRepositoryMock.Verify(x => x.Create(It.IsAny<Domain.Models.Group>()), Times.Once);
+
         }
     }
 }

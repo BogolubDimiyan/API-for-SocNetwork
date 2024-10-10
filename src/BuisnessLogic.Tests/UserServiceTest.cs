@@ -38,7 +38,42 @@ namespace BuisnessLogic.Tests
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             userRepositoryMock.Verify(x => x.Create(It.IsAny<User>()), Times.Never);
-            Assert.IsType<ArgumentException>(ex);
+            
         }
-    }
+
+        public static IEnumerable<object[]> GetIncorrectUsers()
+        {
+            return new List<object[]>
+            {
+                new object[] { new User { Username = "", Email = "", PasswordHash = "", FirstName = "", LastName = "", Birthdate = DateTime.MaxValue, Gender = "", ProfilePicture = "", Bio = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new User { Username = "Test", Email = "", PasswordHash = "", FirstName = "", LastName = "Test", Birthdate = DateTime.MaxValue, Gender = "", ProfilePicture = "", Bio = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new User { Username = "", Email = "", PasswordHash = "", FirstName = "", LastName = "Test", Birthdate = DateTime.MaxValue, Gender = "", ProfilePicture = "", Bio = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewUserShouldCreateNewUser()
+        {
+            var newUser = new User
+            {
+                Username = "Test",
+                Email = "Test",
+                PasswordHash = "Test",
+                FirstName = "Test",
+                LastName = "Test",
+                Birthdate = DateTime.MaxValue,
+                Gender = "Test",
+                ProfilePicture = "Test",
+                Bio = "Test",
+                CreatedAt = DateTime.MaxValue,
+                UpdatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newUser);
+
+            // aseert
+            userRepositoryMock.Verify(x => x.Create(It.IsAny<User>()), Times.Once);
+        }
+    } 
 }
