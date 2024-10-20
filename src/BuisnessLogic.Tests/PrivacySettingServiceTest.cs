@@ -50,21 +50,23 @@ namespace BuisnessLogic.Tests
                 new object[] { new PrivacySetting { UserId = 0, FriendRequests = "Test", PostVisibility = "", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
                 new object[] { new PrivacySetting { UserId = 0, FriendRequests = "", PostVisibility = "Test", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
                 new object[] { new PrivacySetting { UserId = 0, FriendRequests = "", PostVisibility = "", ProfileVisibility= "Test", UpdatedAt = DateTime.MaxValue } },
-                new object[] { new PrivacySetting { UserId = 1, FriendRequests = "", PostVisibility = "", ProfileVisibility= "Test", UpdatedAt = DateTime.MaxValue } },
+                new object[] { new PrivacySetting { UserId = 1, FriendRequests = "", PostVisibility = "", ProfileVisibility= "", UpdatedAt = DateTime.MaxValue } },
             };
         }
 
         [Fact]
         public async Task CreateAsyncNewUserShouldCreateNewUser()
         {
-            var newprivacy = new PrivacySetting
+            var privacy = new PrivacySetting
             {
-               
+                UserId = 1,
+                PostVisibility = "Test",
+                ProfileVisibility = "Test",
                 UpdatedAt = DateTime.MaxValue
             };
 
             // act
-            await service.Create(newprivacy);
+            await service.Create(privacy);
 
             // aseert
             prsetRepositoryMock.Verify(x => x.Create(It.IsAny<PrivacySetting>()), Times.Once);

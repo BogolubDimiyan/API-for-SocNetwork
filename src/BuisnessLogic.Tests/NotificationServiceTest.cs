@@ -25,16 +25,48 @@ namespace BuisnessLogic.Tests
 
             service = new NotificationService(repositoryWrapperMoq.Object);
         }
-        
-        [Fact]
-        public async Task CreateAsync_NullNotification_ShouldThrownNullArgumentExceprion()
+
+        [Theory]
+        [MemberData(nameof(GetIncorrectUsers))]
+        public async Task CreateAsync_NewNotiShouldNotCreateNewNoti(Notification noti)
         {
+            // arrange
+            var newNoti = noti;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newNoti));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             notiRepositoryMock.Verify(x => x.Create(It.IsAny<Notification>()), Times.Never);
+        }
+
+        public static IEnumerable<object[]> GetIncorrectUsers()
+        {
+            return new List<object[]>
+            {
+                new object[] { new Notification { UserId = 0, Message = "", CreatedAt = DateTime.MaxValue } },
+                new object[] { new Notification { UserId = 1, Message = "Test", CreatedAt = DateTime.MaxValue } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewNotiShouldCreateNewNoti()
+        {
+            var newUser = new Notification
+            {
+                UserId = 1,
+                Message = "Test",
+                Type = "Test",
+                IsRead = true,
+                CreatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newUser);
+
+            // aseert
+            notiRepositoryMock.Verify(x => x.Create(It.IsAny<Notification>()), Times.Once);
         }
     }
 }

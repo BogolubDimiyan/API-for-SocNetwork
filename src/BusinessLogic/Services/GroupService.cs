@@ -36,6 +36,18 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model));
             }
+            if (string.IsNullOrEmpty(model.Name))
+            {
+                throw new ArgumentNullException(nameof(model.Name));
+            }
+            if (string.IsNullOrEmpty(model.Description))
+            {
+                throw new ArgumentNullException(nameof(model.Description));
+            }
+            if (model.CreatedBy == 0)
+            {
+                throw new ArgumentNullException(nameof(model.CreatedBy));
+            }
             await _repositoryWrapper.G.Create(model);
             await _repositoryWrapper.Save();
         }

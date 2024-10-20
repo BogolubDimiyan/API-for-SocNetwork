@@ -40,7 +40,30 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model.FirstName));
             }
-
+            if (string.IsNullOrEmpty(model.LastName))
+            {
+                throw new ArgumentNullException(nameof(model.LastName));
+            }
+            if (string.IsNullOrEmpty(model.Username))
+            {
+                throw new ArgumentNullException(nameof(model.Username));
+            }
+            if (string.IsNullOrEmpty(model.Email))
+            {
+                throw new ArgumentNullException(nameof(model.Email));
+            }
+            if (string.IsNullOrEmpty(model.Gender))
+            {
+                throw new ArgumentNullException(nameof(model.Gender));
+            }
+            if (string.IsNullOrEmpty(model.ProfilePicture))
+            {
+                throw new ArgumentNullException(nameof(model.ProfilePicture));
+            }
+            if (string.IsNullOrEmpty(model.Bio))
+            {
+                throw new ArgumentNullException(nameof(model.Bio));
+            }
             await _repositoryWrapper.User.Create(model);
             await _repositoryWrapper.Save();
         }

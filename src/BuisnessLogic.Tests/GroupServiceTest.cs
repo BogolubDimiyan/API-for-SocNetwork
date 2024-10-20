@@ -40,7 +40,6 @@ namespace BuisnessLogic.Tests
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             GRepositoryMock.Verify(x => x.Create(It.IsAny<Domain.Models.Group>()), Times.Never);
-            Assert.IsType<ArgumentException>(ex);
         }
 
         public static IEnumerable<object[]> GetIncorrectGroup()
@@ -49,15 +48,15 @@ namespace BuisnessLogic.Tests
             {
                 new object[] { new Domain.Models.Group { Name = "", Description = "", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
                 new object[] { new Domain.Models.Group { Name = "Test", Description = "", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
-                new object[] { new Domain.Models.Group { Name = "Test", Description = "Group just for Test, and that's all", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Domain.Models.Group { Name = "", Description = "Group just for Test, and that's all", CreatedBy = 0, CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
             };
         }
         public async Task CreateAsyncNewGroupShouldCreateNewGroupr()
         {
             var newGroup = new Domain.Models.Group
             {
-                Name = "",
-                Description = "",
+                Name = "Test",
+                Description = "Test",
                 CreatedBy = 0,
                 CreatedAt = DateTime.MaxValue,
                 UpdatedAt = DateTime.MaxValue

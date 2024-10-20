@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -36,7 +37,22 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model));
             }
-
+            if (model.Id <= 0)
+            {
+                throw new ArgumentNullException(nameof(model.Id));
+            }
+            if (model.PostId <= 0)
+            {
+                throw new ArgumentNullException(nameof(model.PostId));
+            }
+            if (model.UserId <= 0)
+            {
+                throw new ArgumentNullException(nameof(model.UserId));
+            }
+            if (string.IsNullOrEmpty(nameof(model.Content)))
+            {
+                throw new ArgumentNullException(nameof(model.Content));
+            }
             await _repositoryWrapper.Com.Create(model);
             await _repositoryWrapper.Save();
         }

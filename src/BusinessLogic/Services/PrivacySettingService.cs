@@ -41,11 +41,15 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model.ProfileVisibility));
             }
-
+            if (string.IsNullOrEmpty(model.ProfileVisibility))
+            {
+                throw new ArgumentNullException(nameof(model.PostVisibility));
+            }
             if (model.UserId == 0)
             {
                 throw new ArgumentNullException(nameof(model.UserId));
             }
+
 
             await _repositoryWrapper.Priv.Create(model);
             await _repositoryWrapper.Save();

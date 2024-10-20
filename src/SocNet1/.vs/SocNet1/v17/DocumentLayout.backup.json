@@ -3,19 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\privacysettingservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\blockeduserservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\privacysettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F23A1F4-E77D-4A37-8BBC-811C68A37B9B}|..\\Domain\\Domain.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\domain\\models\\privacysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\blockeduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,67 +24,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrivacySettingService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PrivacySettingService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\PrivacySettingService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\PrivacySettingService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\PrivacySettingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:58:22.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PrivacySetting.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\PrivacySetting.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Models\\PrivacySetting.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\Domain\\Models\\PrivacySetting.cs",
-              "RelativeToolTip": "..\\Domain\\Models\\PrivacySetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:55:09.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrivacySettingServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
-              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs*",
-              "RelativeToolTip": "..\\BuisnessLogic.Tests\\PrivacySettingServiceTest.cs*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwB0AAAAbAAAAAAAAAA==",
+              "Title": "BlockedUserServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "RelativeToolTip": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:51:54.119Z",
+              "WhenOpened": "2024-10-20T10:03:22.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\UserService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCYAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BlockedUserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwDAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:40:28.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UserServiceTest.cs",
-              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\UserServiceTest.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\UserServiceTest.cs",
-              "RelativeToolTip": "..\\BuisnessLogic.Tests\\UserServiceTest.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:19:46.393Z",
+              "WhenOpened": "2024-10-20T10:00:42.163Z",
               "EditorCaption": ""
             }
           ]

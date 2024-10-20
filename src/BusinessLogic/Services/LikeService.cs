@@ -36,6 +36,14 @@ namespace BusinessLogic.Services
             {
                 throw new ArgumentNullException(nameof(model));
             }
+            if (model.PostId == 0) 
+            { 
+                throw new ArgumentNullException(nameof(model.PostId)); 
+            }
+            if (model.UserId == 0)
+            {
+                throw new ArgumentNullException(nameof(model.UserId));
+            }
             await _repositoryWrapper.Like.Create(model);
             await _repositoryWrapper.Save();
         }

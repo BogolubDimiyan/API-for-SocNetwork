@@ -26,15 +26,47 @@ namespace BuisnessLogic.Tests
             service = new LikeService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullLike_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectUsers))]
+        public async Task CreateAsync_NewLikeShouldNotCreateNewLike(Like like)
         {
+            // arrange
+            var newLike = like;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newLike));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             likeRepositoryMock.Verify(x => x.Create(It.IsAny<Like>()), Times.Never);
+
+        }
+
+        public static IEnumerable<object[]> GetIncorrectUsers()
+        {
+            return new List<object[]>
+            {
+                new object[] { new Like { PostId = 0, UserId = 0, CreatedAt = DateTime.MaxValue } },
+                new object[] { new Like { PostId = 0, UserId = 1, CreatedAt = DateTime.MaxValue } },
+                new object[] { new Like { PostId = 1, UserId = 0, CreatedAt = DateTime.MaxValue } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewUserShouldCreateNewUser()
+        {
+            var newLike = new Like
+            {
+                PostId = 1,
+                UserId = 1,
+                CreatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newLike);
+
+            // aseert
+            likeRepositoryMock.Verify(x => x.Create(It.IsAny<Like>()), Times.Once);
         }
     }
 }

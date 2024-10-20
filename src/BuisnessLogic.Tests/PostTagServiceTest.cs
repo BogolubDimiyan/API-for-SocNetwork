@@ -39,14 +39,15 @@ namespace BuisnessLogic.Tests
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             posttgRepositoryMock.Verify(x => x.Create(It.IsAny<PostTag>()), Times.Never);
-            Assert.IsType<ArgumentException>(ex);
         }
 
         public static IEnumerable<object[]> GetIncorrectPostTags()
         {
             return new List<object[]>
             {
-                new object[] { new PostTag { } },
+                new object[] { new PostTag { PostId = 1, TagId = 0 } },
+                new object[] { new PostTag { PostId = 0, TagId = 1 } },
+                new object[] { new PostTag { PostId = 0, TagId = 0 } },
             };
         }
 
@@ -56,7 +57,7 @@ namespace BuisnessLogic.Tests
             var newPostTag = new PostTag
             {
                 PostId = 1,
-
+                TagId = 2,
             };
 
             // act

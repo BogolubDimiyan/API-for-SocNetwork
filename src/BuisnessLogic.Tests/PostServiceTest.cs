@@ -26,15 +26,50 @@ namespace BuisnessLogic.Tests
             service = new PostService(repositoryWrapperMoq.Object);
         }
 
-        [Fact]
-        public async Task CreateAsync_NullPost_ShouldThrownNullArgumentExceprion()
+        [Theory]
+        [MemberData(nameof(GetIncorrectUsers))]
+        public async Task CreateAsync_NewUserShouldNotCreateNewUser(Post post)
         {
+            // arrange
+            var newPost = post;
+
             //act
-            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(null));
+            var ex = await Assert.ThrowsAnyAsync<ArgumentNullException>(() => service.Create(newPost));
 
             // assert
             Assert.IsType<ArgumentNullException>(ex);
             postRepositoryMock.Verify(x => x.Create(It.IsAny<Post>()), Times.Never);
+
+        }
+
+        public static IEnumerable<object[]> GetIncorrectUsers()
+        {
+            return new List<object[]>
+            {
+                new object[] { new Post { UserId = 0, Content = "", ImageUrl = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Post { UserId = 0, Content = "Test", ImageUrl = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Post { UserId = 0, Content = "", ImageUrl = "Test", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+                new object[] { new Post { UserId = 1, Content = "", ImageUrl = "", CreatedAt = DateTime.MaxValue, UpdatedAt = DateTime.MaxValue } },
+            };
+        }
+
+        [Fact]
+        public async Task CreateAsyncNewUserShouldCreateNewUser()
+        {
+            var newPost = new Post
+            {
+                UserId = 1,
+                Content = "Test",
+                ImageUrl = "Test",
+                CreatedAt = DateTime.MaxValue,
+                UpdatedAt = DateTime.MaxValue
+            };
+
+            // act
+            await service.Create(newPost);
+
+            // aseert
+            postRepositoryMock.Verify(x => x.Create(It.IsAny<Post>()), Times.Once);
         }
     }
 }
