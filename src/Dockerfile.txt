@@ -1,27 +1,27 @@
 #Образ (Os) + платформа .NET 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 As base
 
-Expose 80
+EXPOSE 80
 ENV ASPNETCORE_URLS http://+:80
 ENV ASPNETCORE_ENVIRONMENT Development
 
-WorkDir /app
+WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 As build
 
 WORKDIR /src
 
-COPY ["SocNet1/SocNet1.csproj", "SocNet1/"]
+COPY ["SocNet1/SocNet1.csproj", "SocNet1.csproj/"]
 COPY ["BuisnessLogic/BusinessLogic.csproj", "BusinessLogic.csproj/"]
 COPY ["BuisnessLogic.Tests/BuisnessLogic.Tests.csproj", "BuisnessLogic.Tests.csproj/"]
 COPY ["Domain/Domain.csproj", "Domain.csproj/"]
 COPY ["DataAccess/DataAccess.csproj", "DataAccess.csproj/"]
-Run dotnet restore "SocNet1.csproj"
+RUN dotnet restore "BuisnessLogic.Tests.csproj"
 
-Copy . .
-From build As publish
-Run dotnet publish "BuisnessLogic.Tests.csproj" -c releas -o /app/publish /p:UseAppMost=false
+COPY . .
+FROM build As publish
+FROM dotnet publish "BuisnessLogic.Tests.csproj" -c releas -o /app/publish /p:UseAppHost=false
 
-Copy --from=publish /app/publish .
+COPY --from=publish /app/publish .
 
 ENTRYPOINT [ "dotnet", "BuisnessLogic.Tests.dll" ]
