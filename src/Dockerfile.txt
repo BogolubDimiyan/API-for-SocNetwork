@@ -19,8 +19,8 @@ COPY ["DataAccess/DataAccess.csproj", "DataAccess.csproj/"]
 RUN dotnet restore "BuisnessLogic.Tests.csproj"
 
 COPY . .
-FROM build As publish
-FROM dotnet publish "BuisnessLogic.Tests.csproj" -c releas -o /app/publish /p:UseAppHost=false
+FROM build AS publish
+RUN dotnet publish "BusinessLogic.Tests/BusinessLogic.Tests.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 COPY --from=publish /app/publish .
 
