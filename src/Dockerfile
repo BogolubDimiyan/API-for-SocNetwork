@@ -8,7 +8,7 @@ ENV ASPNETCORE_URLS http://+:80
 ENV ASPNETCORE_ENVIRONMENT Development
 
 # Этап сборки
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
 WORKDIR /src
 
