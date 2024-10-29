@@ -7463,11 +7463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Дан\\Desktop\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
       "projectName": "BuisnessLogic.Tests",
-      "projectPath": "C:\\Users\\Дан\\Desktop\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
+      "projectPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
       "packagesPath": "C:\\Users\\Дан\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Дан\\Desktop\\BuisnessLogic.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BuisnessLogic.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Дан\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7485,8 +7485,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Дан\\Desktop\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\Дан\\Desktop\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

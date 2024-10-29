@@ -8,7 +8,7 @@ services:
     environment:
       - ASPNETCORE_URLS=http://+:80
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionString=Server=DESKTOP-SRKQPQK;Database=SocialNet;Integrated Security=true;MultipleActiveResultSets=true
+      - ConnectionString=Server=db;Database=MyTest;User=DESKTOP-SRKQPQK\Дан;Integrated Security=true;MultipleActiveResultSets=true
     ports:
       - "5000:80"
     depends_on:
@@ -20,3 +20,5 @@ services:
       - "SA_PASSWORD=Comp123)(f"
       - "ACCEPT_EULA=Y"
     container_name: mssql
+
+    #C:\Users\Дан\Documents\GitHub\API\src

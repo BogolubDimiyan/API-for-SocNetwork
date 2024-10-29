@@ -1,12 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Documents\\GitHub\\API\\src\\SocNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E45FEC4-8DA6-4A41-940E-80866EB6DFF7}|..\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\buisnesslogic.tests\\blockeduserservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B3A59E0-25CB-499B-B2C0-5D1E458D1514}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\businesslogic\\services\\blockeduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,10 +27,10 @@
               "DocumentIndex": 0,
               "Title": "BlockedUserServiceTest.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "RelativeDocumentMoniker": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "RelativeToolTip": "..\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAtAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T10:03:22.226Z",
               "EditorCaption": ""
@@ -40,13 +40,12 @@
               "DocumentIndex": 1,
               "Title": "BlockedUserService.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\BlockedUserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwDAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:00:42.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T10:00:42.163Z"
             }
           ]
         }
