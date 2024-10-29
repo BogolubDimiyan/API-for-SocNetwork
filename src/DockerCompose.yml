@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  SocNet1:
+    image: ${DOCKER_REGISTRY-}SocNet1
+    build: 
+      context: .
+      dockerfile: ./Dockerfile 
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      - "SA_PASSWORD=Comp123)(f"
+      - "ACCEPT_EULA=Y"
+    container_name: mssql
