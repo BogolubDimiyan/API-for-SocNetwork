@@ -1,14 +1,14 @@
-version: '3.4'
 
 services:
   SocNet1:
-    image: ${DOCKER_REGISTRY-}SocNet1
+    image: ${DOCKER_REGISTRY-}socnet1
     build: 
       context: .
       dockerfile: ./Dockerfile 
     environment:
       - ASPNETCORE_URLS=http://+:80
       - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionString=Server=db;Database=SocialNet;Database=SocialNet; Integrated Security=true;MultipleActiveResultSets=true
     ports:
       - "5000:80"
     depends_on:
