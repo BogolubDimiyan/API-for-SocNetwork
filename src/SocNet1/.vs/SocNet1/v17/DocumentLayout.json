@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{346CCC84-81B6-4FCA-A57C-0979DD9DB21C}|..\\ClientApp\\ClientApp.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{346CCC84-81B6-4FCA-A57C-0979DD9DB21C}|..\\ClientApp\\ClientApp.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,26 +29,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "..\\ClientApp\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
               "RelativeToolTip": "..\\ClientApp\\Pages\\Index.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T07:16:00.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwE8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T06:51:54.472Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T06:44:10.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T06:44:10.294Z"
             }
           ]
         }

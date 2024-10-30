@@ -5,6 +5,11 @@
 <p>Текущая дата: @CurrentDate</p>
 <p>Текущее время: @CurrentTime</p>
 
+@foreach (var user in result)
+{
+    <p>@user.FirstName @user.LastName @user.Birthdate.ToShortDateString()</p>
+}
+
 @code 
 {
     public class User
@@ -13,14 +18,14 @@
         public string Username { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
-        public DateTime? Birthdate { get; set; }
-        public string? Gender { get; set; }
-        public string? ProfilePicture { get; set; }
-        public string? Bio { get; set; }
-        public DateTime? CreatedAt { get; set; }
-        public DateTime? UpdatedAt { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime Birthdate { get; set; }
+        public string Gender { get; set; }
+        public string ProfilePicture { get; set; }
+        public string Bio { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 
     public User[] result = new User[] { };
@@ -37,7 +42,7 @@
         var client = new HttpClient();
         client.BaseAddress = new Uri("https://dashboard.render.com/web/srv-csgtmdg8fa8c7393d350");
 
-        result = await client.GetFromJsonAsync<User[]>("api/Users");
+        result = await client.GetFromJsonAsync<User[]>("SocNet1/Users");
 
         return;
     }

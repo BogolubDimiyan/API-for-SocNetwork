@@ -76,7 +76,7 @@ namespace SocNet1
             }
 
             app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7030/", })
-                                .AllowCredentials()
+                                .AllowAnyHeader()
                                 .AllowAnyMethod());
 
 
