@@ -7,6 +7,24 @@
 
 @code 
 {
+    public class User
+    {
+        public int Id { get; set; }
+        public string Username { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string PasswordHash { get; set; } = null!;
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public DateTime? Birthdate { get; set; }
+        public string? Gender { get; set; }
+        public string? ProfilePicture { get; set; }
+        public string? Bio { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+    }
+
+    public User[] result = new User[] { };
+
     string CurrentDate;
     string CurrentTime;
 
@@ -15,5 +33,14 @@
         var date = DateTime.Now;
         CurrentDate = date.ToShortDateString();
         CurrentTime = date.ToShortTimeString();
+
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://dashboard.render.com/web/srv-csgtmdg8fa8c7393d350");
+
+        result = await client.GetFromJsonAsync<User[]>("api/Users");
+
+        return;
     }
+
 }
+

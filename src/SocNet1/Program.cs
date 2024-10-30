@@ -67,13 +67,18 @@ namespace SocNet1
             });
 
             var app = builder.Build();
-            
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7030/", })
+                                .AllowCredentials()
+                                .AllowAnyMethod());
+
 
             app.UseHttpsRedirection();
 
