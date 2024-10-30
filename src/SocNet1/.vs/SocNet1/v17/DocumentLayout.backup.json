@@ -1,12 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Documents\\GitHub\\API\\src\\SocNet1\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{346CCC84-81B6-4FCA-A57C-0979DD9DB21C}|..\\ClientApp\\ClientApp.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\socnet1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A952A94A-D124-4683-85B6-74394FCCF236}|SocNet1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,27 +30,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlockedUserServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\BuisnessLogic.Tests\\BlockedUserServiceTest.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwD8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:03:22.226Z",
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "..\\ClientApp\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\ClientApp\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T07:16:00.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlockedUserService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\BusinessLogic\\Services\\BlockedUserService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAwwDAAAABGAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwEEAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:00:42.163Z"
+              "WhenOpened": "2024-10-29T06:51:54.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T06:44:10.294Z"
             }
           ]
         }

@@ -20,7 +20,7 @@ namespace SocNet1
             }));
 
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
-                options => options.UseSqlServer("Server=DESKTOP-SRKQPQK;Database=SocialNet;User Id=DESKTOP-SRKQPQK\\���;Integrated Security=True;"));
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
@@ -67,7 +67,7 @@ namespace SocNet1
             });
 
             var app = builder.Build();
-
+            
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
