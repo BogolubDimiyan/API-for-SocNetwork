@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Дан\\Desktop\\ClientApp\\ClientApp.csproj": {}
+    "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\ClientApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Дан\\Desktop\\ClientApp\\ClientApp.csproj": {
+    "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\ClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Дан\\Desktop\\ClientApp\\ClientApp.csproj",
+        "projectUniqueName": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\ClientApp.csproj",
         "projectName": "ClientApp",
-        "projectPath": "C:\\Users\\Дан\\Desktop\\ClientApp\\ClientApp.csproj",
+        "projectPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\ClientApp.csproj",
         "packagesPath": "C:\\Users\\Дан\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Дан\\Desktop\\ClientApp\\obj\\",
+        "outputPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Дан\\AppData\\Roaming\\NuGet\\NuGet.Config",
