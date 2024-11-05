@@ -40,9 +40,9 @@
         CurrentTime = date.ToShortTimeString();
 
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://dashboard.render.com/web/srv-csgtmdg8fa8c7393d350");
+        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com");
 
-        result = await client.GetFromJsonAsync<User[]>("SocNet1/Users");
+        result = await client.GetFromJsonAsync<User[]>("api/User1");
 
         return;
     }
