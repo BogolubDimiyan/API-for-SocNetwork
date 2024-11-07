@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5zB0pz4jzr4=",
+  "dgSpecHash": "Xi4vmwAZTvk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\ClientApp\\ClientApp.csproj",
+  "projectFilePath": "C:\\Users\\Дан\\Desktop\\ClientApp\\ClientApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.18\\microsoft.aspnetcore.authorization.7.0.18.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.18\\microsoft.aspnetcore.components.7.0.18.nupkg.sha512",

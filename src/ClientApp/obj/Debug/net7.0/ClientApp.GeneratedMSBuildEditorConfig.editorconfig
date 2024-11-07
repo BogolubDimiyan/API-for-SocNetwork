@@ -13,27 +13,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ClientApp
 build_property.RootNamespace = ClientApp
-build_property.ProjectDir = C:\Users\Дан\Documents\GitHub\API\src\ClientApp\
+build_property.ProjectDir = C:\Users\Дан\Desktop\ClientApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Дан\Documents\GitHub\API\src\ClientApp
+build_property.MSBuildProjectDirectory = C:\Users\Дан\Desktop\ClientApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Дан/Documents/GitHub/API/src/ClientApp/App.razor]
+[C:/Users/Дан/Desktop/ClientApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Дан/Documents/GitHub/API/src/ClientApp/MainLayout.razor]
+[C:/Users/Дан/Desktop/ClientApp/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Дан/Documents/GitHub/API/src/ClientApp/Pages/Index.razor]
+[C:/Users/Дан/Desktop/ClientApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Дан/Documents/GitHub/API/src/ClientApp/_Imports.razor]
+[C:/Users/Дан/Desktop/ClientApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

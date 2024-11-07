@@ -30,3 +30,51 @@ h1:focus {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+/* Общие стили для секции */
+section {
+    width: 100;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+    /* Стили для заголовка */
+    section title {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    /* Стили для изображения */
+    section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Стили для пустого div */
+    section div {
+        height: 20px; /* Вы можете изменить это значение или добавить другие стили */
+    }
+
+    /* Стили для кнопки */
+    section input[type="button"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        section input[type="button"]:hover {
+            background-color: #0056b3;
+        }
