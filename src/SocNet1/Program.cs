@@ -16,15 +16,16 @@ namespace SocNet1
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Настройка политики CORS
             builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
+                builder.WithOrigins("https://localhost:7030")
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
             }));
 
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
@@ -79,15 +80,12 @@ namespace SocNet1
                 app.UseSwaggerUI();
             }
 
-            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7030/", })
-                                .AllowAnyHeader()
-                                .AllowAnyMethod());
-
+            // Применение политики CORS
+            app.UseCors("MyPolicy");
 
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
