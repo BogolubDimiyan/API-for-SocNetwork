@@ -35,9 +35,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwE0AAABXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T10:51:40.072Z",
               "EditorCaption": ""
@@ -52,8 +52,7 @@
               "RelativeToolTip": "..\\ClientApp\\wwwroot\\index.html",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-07T10:37:02.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T10:37:02.697Z"
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "RelativeToolTip": "..\\ClientApp\\wwwroot\\css\\app.css",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-07T10:22:48.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T10:22:48.531Z"
             },
             {
               "$type": "Document",
@@ -74,12 +72,11 @@
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "..\\ClientApp\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor*",
-              "RelativeToolTip": "..\\ClientApp\\Pages\\Index.razor*",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\ClientApp\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T07:16:00.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T07:16:00.409Z"
             }
           ]
         }
