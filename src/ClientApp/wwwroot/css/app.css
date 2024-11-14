@@ -31,36 +31,89 @@ h1:focus {
         content: "An error has occurred."
     }
 
-    section .imge {
-        max-width: 100px;
-        max-height: 100px;
+    .imge {
+        position: absolute;
+        width: 150px;
+        height: 800px;
+        border-radius: 10% / 50%;
     }
 
-        section .texts h1 {
-            position: absolute;
-            max-height: 800px;
-            display: block;
-            font-size: 24px;
-            font-weight: bold;
-            color: white;
-            padding: 50px;
-            text-align: justify; 
-            white-space: normal;
+.texts h1 {
+    position: relative;
+    top: 50px;
+    width: 500px;
+    left: 100px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    white-space: normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.texts p {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 550px;
+    font-size: 20px;
+    color: white;
+    white-space: pre-line;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.butt input[type=button] {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1000px;
+    top: 70%;
+    color: white !important;
+    background-color: yellowgreen !important;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #DDD9B4;
+}
+
+.input-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 100px;
+    left: 670px;
+    width: 50%;
+    align-items: flex-start;
+}
+
+    .input-container input[type="text"],
+    .input-container input[type="email"],
+    .input-container input[type="date"],
+    .input-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+
+        .input-container input[type="text"]:focus,
+        .input-container input[type="email"]:focus,
+        .input-container input[type="date"]:focus,
+        .input-container input[type="password"]:focus {
+            outline: none;
+            border-color: #888;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
-
-        section .texts p{
-            position: absolute;
-            max-height:200px;
-            font-size: 20px;
-            color: white;
-            padding: 80px;
-            text-align: justify;
-            white-space: normal;
-
-        }
-
-
-
 
     /* Стили для заголовка */
     /*section h1 {
