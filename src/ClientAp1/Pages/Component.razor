@@ -1,0 +1,68 @@
+﻿@page "/users"
+
+<section id="">
+    <div class="container">
+        <p>Текущее время: @CurrentTime</p>
+        <p>Текущая дата: @CurrentDate</p>
+
+        <h1>Пользователи</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Birthdate</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in result)
+                {
+                    <tr>
+                        <th scope="row">@user.Id</th>
+                        <td>@user.Firstname</td>
+                        <td>@user.Lastname</td>
+                        <td>@user.Birthdate.ToShortDateString()</td>
+                        <td>@user.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+@code {
+    public class User
+    {
+        public int Id { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public string Middlename { get; set; }
+        public DateTime Birthdate { get; set; }
+        public string Login { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    public User[] result = new User[] { };
+
+    string CurrentDate;
+    string CurrentTime;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var date = DateTime.Now;
+        CurrentDate = date.ToShortDateString();
+        CurrentTime = date.ToShortTimeString();
+
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://my-best-api-lol.onrender.com/");
+
+        result = await client.GetFromJsonAsync<User[]>("api/User");
+
+        return;
+    }
+}

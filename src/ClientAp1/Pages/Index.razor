@@ -1,0 +1,71 @@
+﻿
+@page "/"
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="C:\Users\Дан\Pictures\channels4_profile.png" />
+    <PageTitle>Cactus</PageTitle>
+</head>
+
+<body>
+    <div class="imge">
+        <img src="https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Ftest1-emgndhaqd0c9h2db.a01.azurefd.net%2Fimages%2Fc401dc51-2a25-4872-a9e5-e3cc45698dc9.png" />
+    </div>
+    <div id="rectangle"></div>
+    <div class="texts">
+        <h1>
+            Welcome to Cactus!
+        </h1>
+        <h3>
+            Now you can
+        </h3>
+        <h2>or</h2>
+        <p>
+            Here each cactus finds its own corner of the sun and warmth.
+            We are glad to see you in our friendly circle!
+            Feel free to share your stories, photos, and ideas.
+            Let's make Cactus an even brighter and more interesting place together!
+            Have a nice chat and make new acquaintances!
+        </p>
+    </div>
+    <div class="butt">
+        <a href="/users" class="reBut">Register</a>
+        <a class="loBut" >Login</a>
+    </div>
+    <a class="link" href="/users">Пользователи</a>
+</body>
+
+
+
+
+@code
+{
+    public class User
+    {
+        public int Id { get; set; }
+        public string Username { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string PasswordHash { get; set; } = null!;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime Birthdate { get; set; }
+        public string Gender { get; set; }
+        public string ProfilePicture { get; set; }
+        public string Bio { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+    }
+
+    public User[] result = new User[] { };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com/");
+
+        result = await client.GetFromJsonAsync<User[]>("api/User1");
+
+        return;
+    }
+
+}
+

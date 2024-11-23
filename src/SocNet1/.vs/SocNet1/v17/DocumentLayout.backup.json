@@ -3,10 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{346CCC84-81B6-4FCA-A57C-0979DD9DB21C}|..\\ClientApp\\ClientApp.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A386B4BB-B098-4470-9A15-F7699F830531}|..\\ClientAp1\\ClientAp1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientap1\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{346CCC84-81B6-4FCA-A57C-0979DD9DB21C}|..\\ClientApp\\ClientApp.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A386B4BB-B098-4470-9A15-F7699F830531}|..\\ClientAp1\\ClientAp1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientap1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A386B4BB-B098-4470-9A15-F7699F830531}|..\\ClientAp1\\ClientAp1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientap1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A386B4BB-B098-4470-9A15-F7699F830531}|..\\ClientAp1\\ClientAp1.csproj|c:\\users\\\u0434\u0430\u043D\\desktop\\clientap1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,28 +30,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "..\\ClientApp\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "..\\ClientApp\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-12T11:57:08.036Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "..\\ClientAp1\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\wwwroot\\index.html",
+              "RelativeToolTip": "..\\ClientAp1\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T10:45:08.095Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "..\\ClientApp\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientApp\\Pages\\Index.razor",
-              "RelativeToolTip": "..\\ClientApp\\Pages\\Index.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "..\\ClientAp1\\Pages\\Component.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\Pages\\Component.razor",
+              "RelativeToolTip": "..\\ClientAp1\\Pages\\Component.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T07:16:00.409Z",
+              "WhenOpened": "2024-11-22T10:40:35.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "..\\ClientAp1\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\ClientAp1\\Pages\\Index.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:15:47.882Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "..\\ClientAp1\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\ClientAp1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "..\\ClientAp1\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAHEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T10:16:57.221Z",
               "EditorCaption": ""
             }
           ]

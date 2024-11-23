@@ -822,3 +822,5 @@ C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\ClientApp.dll
 C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\refint\ClientApp.dll
 C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\ClientApp.pdb
 C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\ref\ClientApp.dll
+C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\ClientApp.RazorAssemblyInfo.cache
+C:\Users\Дан\Desktop\ClientApp\obj\Debug\net7.0\ClientApp.RazorAssemblyInfo.cs
