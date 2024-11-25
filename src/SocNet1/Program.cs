@@ -19,7 +19,7 @@ namespace SocNet1
             // Настройка политики CORS
             builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder.WithOrigins("https://localhost:7030")
+                builder.WithOrigins("https://localhost:7175") // Уберите косую черту в конце
                        .AllowAnyMethod()
                        .AllowAnyHeader();
             }));
@@ -79,10 +79,6 @@ namespace SocNet1
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
-            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7175/" })
-            .AllowAnyHeader()
-            .AllowAnyMethod());
 
             // Применение политики CORS
             app.UseCors("MyPolicy");

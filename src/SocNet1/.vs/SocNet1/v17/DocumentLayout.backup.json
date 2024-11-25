@@ -28,7 +28,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 338,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -41,9 +41,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\\Desktop\\SocNet1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T11:57:40.602Z",
               "EditorCaption": ""
@@ -58,8 +58,7 @@
               "RelativeToolTip": "..\\ClientAp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T11:57:31.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T11:57:31.982Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "..\\ClientAp1\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-22T10:45:08.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T10:45:08.095Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "..\\ClientAp1\\Pages\\Component.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:40:35.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T10:40:35.483Z"
             },
             {
               "$type": "Document",
@@ -97,13 +94,12 @@
               "RelativeToolTip": "..\\ClientAp1\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:15:47.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T10:15:47.882Z"
             }
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 62,
           "SelectedChildIndex": 0,
           "Children": [
             {
