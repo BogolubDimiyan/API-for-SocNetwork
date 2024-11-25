@@ -60,7 +60,7 @@
     protected override async Task OnInitializedAsync()
     {
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com/");
+        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com");
 
         result = await client.GetFromJsonAsync<User[]>("api/User1");
 

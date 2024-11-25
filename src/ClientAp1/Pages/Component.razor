@@ -1,37 +1,74 @@
 ﻿@page "/users"
 
-<section id="">
-    <div class="container">
-        <p>Текущее время: @CurrentTime</p>
-        <p>Текущая дата: @CurrentDate</p>
+<head>
+    <PageTitle>Cactus</PageTitle>
+</head>
 
-        <h1>Пользователи</h1>
+<style scoped>
 
-        <table class="table">
-            <thead>
+    p{
+        color: grey;
+    }
+    h1{
+        color:white;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid white;
+    }
+
+        .table th, .table td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: black;
+            color: white;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: white;
+        }
+
+        .table tr:nth-child(odd) {
+            background-color: white;
+        }
+</style>
+
+<div class="container">
+    <p>Текущее время: @CurrentTime</p>
+    <p>Текущая дата: @CurrentDate</p>
+
+    <h1>Пользователи</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Birthdate</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in result)
+            {
                 <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Birthdate</th>
-                    <th scope="col">Email</th>
+                    <th scope="row">@user.Id</th>
+                    <td>@user.Firstname</td>
+                    <td>@user.Lastname</td>
+                    <td>@user.Birthdate.ToShortDateString()</td>
+                    <td>@user.Email</td>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach (var user in result)
-                {
-                    <tr>
-                        <th scope="row">@user.Id</th>
-                        <td>@user.Firstname</td>
-                        <td>@user.Lastname</td>
-                        <td>@user.Birthdate.ToShortDateString()</td>
-                        <td>@user.Email</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-</section>
+            }
+        </tbody>
+    </table>
+</div>
 
 
 @code {
@@ -59,7 +96,7 @@
         CurrentTime = date.ToShortTimeString();
 
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://my-best-api-lol.onrender.com/");
+        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com");
 
         result = await client.GetFromJsonAsync<User[]>("api/User");
 
