@@ -4,6 +4,7 @@
 <head>
     <link rel="shortcut icon" type="image/png" href="C:\Users\Дан\Pictures\channels4_profile.png" />
     <PageTitle>Cactus</PageTitle>
+    Content-Security-Policy: script-src 'self' 'unsafe-eval';
 </head>
 
 <body>
@@ -60,7 +61,7 @@
     protected override async Task OnInitializedAsync()
     {
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com");
+        client.BaseAddress = new Uri("https://cactusdatabase.onrender.com");
 
         result = await client.GetFromJsonAsync<User[]>("api/User1");
 

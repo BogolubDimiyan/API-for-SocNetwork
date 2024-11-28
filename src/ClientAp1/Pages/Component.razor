@@ -2,6 +2,7 @@
 
 <head>
     <PageTitle>Cactus</PageTitle>
+    Content-Security-Policy: script-src 'self' 'unsafe-eval';
 </head>
 
 <style scoped>
@@ -96,9 +97,9 @@
         CurrentTime = date.ToShortTimeString();
 
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://api-for-socnetwork.onrender.com");
+        client.BaseAddress = new Uri("https://cactusdatabase.onrender.com");
 
-        result = await client.GetFromJsonAsync<User[]>("api/User");
+        result = await client.GetFromJsonAsync<User[]>("api/User1");
 
         return;
     }
