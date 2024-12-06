@@ -4,8 +4,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 
 EXPOSE 80
-ENV ASPNETCORE_URLS http://+:80
-ENV ASPNETCORE_ENVIRONMENT Development
+ENV ASPNETCORE_URLS=http://+:80
+ENV ASPNETCORE_ENVIRONMENT=Development
 
 # Этап сборки
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
@@ -24,16 +24,13 @@ RUN dotnet restore "SocNet1/SocNet1.csproj"
 # Копируем все файлы проекта
 COPY . .
 
-# Собираем проект
-RUN dotnet build "SocNet1/SocNet1.csproj" -c Release -o /app/build
-
-# Этап публикации
 FROM build AS publish
-RUN dotnet publish "SocNet1/SocNet1.csproj" -c Release -o /app/publish
+RUN dotnet publish "SocNet1/SocNet1.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Финальный образ
 FROM base AS final
 WORKDIR /app
+
 COPY --from=publish /app/publish .
 
 # Запуск приложения

@@ -32,15 +32,10 @@ namespace SocNet1
                 });
             });
 
-            // Настройка DbContext
-            var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new ArgumentNullException("ConnectionString", "Connection string is missing or empty.");
-            }
+
 
             builder.Services.AddDbContext<SocialNetContext>(
-                options => options.UseSqlServer(connectionString));
+                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
 
             // Регистрация сервисов
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
