@@ -9,6 +9,7 @@ services:
       - ASPNETCORE_URLS=http://+:80
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionString=Server=db;Database=SocNet;User=DESKTOP-SRKQPQK\Дан;Integrated Security=true;MultipleActiveResultSets=true
+      - Server=sql.bsite.net\MSSQL2016;Database=danilas111_;User Id=danilas111_;Password=comp123)(f;TrustServerCertificate=true;
     ports:
       - "5000:80"
     depends_on:
