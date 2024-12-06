@@ -61,7 +61,7 @@
     protected override async Task OnInitializedAsync()
     {
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://cactusdatabase.onrender.com");
+        client.BaseAddress = new Uri("https://api-for-cactus.onrender.com");
 
         result = await client.GetFromJsonAsync<User[]>("api/User1");
 
