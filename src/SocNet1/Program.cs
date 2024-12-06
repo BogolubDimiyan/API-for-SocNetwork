@@ -17,15 +17,12 @@ namespace SocNet1
             var builder = WebApplication.CreateBuilder(args);
 
             // Настройка политики CORS
-            builder.Services.AddCors(options =>
+            builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                options.AddPolicy("MyPolicy", builder =>
-                {
-                    builder.WithOrigins("https://localhost:7175")
-                           .AllowAnyMethod()
-                           .AllowAnyHeader();
-                });
-            });
+                builder.WithOrigins("https://localhost:7175")
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
 
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
