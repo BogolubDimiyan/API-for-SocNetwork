@@ -1,6 +1,7 @@
 using BusinessLogic.Services;
 using DataAccess.Wrapper;
 using Domain.Interfaces;
+using Domain.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -33,7 +34,7 @@ namespace SocNet1
 
             // Настройка DbContext
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
-                options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
 
             // Регистрация сервисов
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
@@ -83,6 +84,14 @@ namespace SocNet1
 
             var app = builder.Build();
 
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                var context = services.GetRequiredService<SocialNetContext>();
+                context.Database.Migrate();
+            }
             // Настройка HTTP-запросов
             if (app.Environment.IsDevelopment())
             {
