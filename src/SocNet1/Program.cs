@@ -26,15 +26,21 @@ namespace SocNet1
             {
                 options.AddPolicy("MyPolicy", builder =>
                 {
-                    builder.WithOrigins("https://client-6z3d.onrender.com") // Добавьте ваш клиентский домен
+                    builder.WithOrigins("https://client-6z3d.onrender.com")
                            .AllowAnyMethod()
                            .AllowAnyHeader();
                 });
             });
 
             // Настройка DbContext
+            var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                throw new ArgumentNullException("ConnectionString", "Connection string is missing or empty.");
+            }
+
             builder.Services.AddDbContext<SocialNetContext>(
-                options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
+                options => options.UseSqlServer(connectionString));
 
             // Регистрация сервисов
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
