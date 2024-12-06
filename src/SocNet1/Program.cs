@@ -26,14 +26,14 @@ namespace SocNet1
             {
                 options.AddPolicy("MyPolicy", builder =>
                 {
-                    builder.WithOrigins("https://localhost:7175")
+                    builder.WithOrigins("https://client-6z3d.onrender.com") // Добавьте ваш клиентский домен
                            .AllowAnyMethod()
                            .AllowAnyHeader();
                 });
             });
 
             // Настройка DbContext
-            builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
+            builder.Services.AddDbContext<SocialNetContext>(
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
 
             // Регистрация сервисов
@@ -83,6 +83,7 @@ namespace SocNet1
             });
 
             var app = builder.Build();
+
             // Настройка HTTP-запросов
             if (app.Environment.IsDevelopment())
             {
