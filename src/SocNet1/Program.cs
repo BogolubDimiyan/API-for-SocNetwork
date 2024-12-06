@@ -83,15 +83,6 @@ namespace SocNet1
             });
 
             var app = builder.Build();
-
-
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-
-                var context = services.GetRequiredService<SocialNetContext>();
-                context.Database.Migrate();
-            }
             // Настройка HTTP-запросов
             if (app.Environment.IsDevelopment())
             {
