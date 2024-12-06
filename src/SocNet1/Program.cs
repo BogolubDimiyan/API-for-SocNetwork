@@ -1,12 +1,16 @@
 using BusinessLogic.Services;
 using DataAccess.Wrapper;
 using Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using System;
+using System.IO;
+using System.Reflection;
 
 namespace SocNet1
 {
@@ -17,16 +21,21 @@ namespace SocNet1
             var builder = WebApplication.CreateBuilder(args);
 
             // Настройка политики CORS
-            builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            builder.Services.AddCors(options =>
             {
-                builder.WithOrigins("https://localhost:7175")
-                       .AllowAnyMethod()
-                       .AllowAnyHeader();
-            }));
+                options.AddPolicy("MyPolicy", builder =>
+                {
+                    builder.WithOrigins("https://localhost:7175")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
 
+            // Настройка DbContext
             builder.Services.AddDbContext<Domain.Models.SocialNetContext>(
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            // Регистрация сервисов
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ITagService, TagService>();
@@ -44,27 +53,28 @@ namespace SocNet1
             builder.Services.AddScoped<ICommentService, CommentService>();
             builder.Services.AddScoped<IBlockedUserService, BlockedUserService>();
 
+            // Настройка контроллеров
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            // Настройка Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
                     Title = "API for social network",
                     Description = "API that making for using in social network",
-                    Contact = new Microsoft.OpenApi.Models.OpenApiContact
+                    Contact = new OpenApiContact
                     {
                         Name = "example of contact",
                         Url = new Uri("https://example.com/contact")
                     },
-                    License = new Microsoft.OpenApi.Models.OpenApiLicense
+                    License = new OpenApiLicense
                     {
                         Name = "example of license",
                         Url = new Uri("https://example.com/license")
                     }
-
                 });
 
                 var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -73,7 +83,7 @@ namespace SocNet1
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Настройка HTTP-запросов
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
