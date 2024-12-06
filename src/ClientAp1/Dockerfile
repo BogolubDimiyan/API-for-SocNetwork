@@ -8,6 +8,6 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 COPY --from=build-env /app/output/wwwroot .
 
-COPY nginx.conf /stc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
