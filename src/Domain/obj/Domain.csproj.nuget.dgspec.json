@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Дан\\Desktop\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Дан\\Desktop\\Domain\\Domain.csproj": {
+    "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Дан\\Desktop\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Дан\\Desktop\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Дан\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Дан\\Desktop\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

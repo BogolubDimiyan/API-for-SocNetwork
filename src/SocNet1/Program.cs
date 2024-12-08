@@ -26,7 +26,7 @@ namespace SocNet1
             {
                 options.AddPolicy("MyPolicy", builder =>
                 {
-                    builder.WithOrigins("https://api-for-socnetwork-1.onrender.com")
+                    builder.WithOrigins("https://client-6z3d.onrender.com")
                            .AllowAnyMethod()
                            .AllowAnyHeader();
                 });
