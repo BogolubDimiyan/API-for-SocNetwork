@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVO6vSnGRsQ=",
+  "dgSpecHash": "G78xNa/dWYc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Дан\\Desktop\\BuisnessLogic.Tests\\BuisnessLogic.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дан\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

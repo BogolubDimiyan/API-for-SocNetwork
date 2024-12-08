@@ -97,7 +97,7 @@
         CurrentTime = date.ToShortTimeString();
 
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://api-for-cactus.onrender.com");
+        client.BaseAddress = new Uri("https://api-for-socnetwork-1.onrender.com");
 
         result = await client.GetFromJsonAsync<User[]>("api/User1");
 

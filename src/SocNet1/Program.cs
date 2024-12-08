@@ -26,16 +26,14 @@ namespace SocNet1
             {
                 options.AddPolicy("MyPolicy", builder =>
                 {
-                    builder.WithOrigins("https://client-6z3d.onrender.com")
+                    builder.WithOrigins("https://api-for-socnetwork-1.onrender.com")
                            .AllowAnyMethod()
                            .AllowAnyHeader();
                 });
             });
 
+            // Настройка DbContext
 
-
-            builder.Services.AddDbContext<SocialNetContext>(
-                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
 
             // Регистрация сервисов
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
@@ -58,6 +56,8 @@ namespace SocNet1
             // Настройка контроллеров
             builder.Services.AddControllers();
 
+            builder.Services.AddDbContext<SocialNetContext>(
+                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
             // Настройка Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(options =>

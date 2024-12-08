@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqG2bXh5oM0=",
+  "dgSpecHash": "QQB4FlLLA2Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дан\\Documents\\GitHub\\API\\src\\SocNet1\\SocNet1.csproj",
+  "projectFilePath": "C:\\Users\\Дан\\Desktop\\SocNet1\\SocNet1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дан\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\mapster\\6.5.1\\mapster.6.5.1.nupkg.sha512",
